@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Monitor Berita — MBG · SPPG · Koperasi Desa Merah Putih</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:      #f3f4f6;
+  --surface: #ffffff;
+  --surface2:#f9fafb;
+  --border:  #e5e7eb;
+  --border2: #d1d5db;
+  --text:    #111827;
+  --muted:   #6b7280;
+  --mbg:     #d97706;
+  --sppg:    #059669;
+  --kopdes:  #dc2626;
+  --accent:  #d97706;
+  --r: 10px;
+  --font: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.05);
+}
+
+body { background:var(--bg); color:var(--text); font-family:var(--font); font-size:14px; line-height:1.6; min-height:100vh; }
+a { color:var(--accent); text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* ── Header ── */
+.header {
+  background:var(--surface); border-bottom:1px solid var(--border);
+  padding:16px 28px; display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+  box-shadow:var(--shadow);
+}
+.header-icon {
+  width:44px; height:44px; border-radius:11px; flex-shrink:0;
+  background:linear-gradient(135deg,#fbbf24,#ef4444);
+  display:flex; align-items:center; justify-content:center; font-size:21px;
+}
+.header-text h1 { font-size:16px; font-weight:700; letter-spacing:-.2px; }
+.header-text p  { font-size:11px; color:var(--muted); margin-top:2px; }
+.header-meta    { margin-left:auto; text-align:right; font-size:11px; color:var(--muted); }
+#last-updated   { color:var(--text); font-weight:600; font-size:12px; }
+
+/* ── Topic tabs ── */
+.topic-nav {
+  background:var(--surface); border-bottom:1px solid var(--border);
+  padding:0 28px; display:flex; gap:0; overflow-x:auto;
+}
+.tab {
+  display:inline-flex; align-items:center; gap:6px;
+  padding:12px 18px; font-size:13px; font-weight:600; cursor:pointer;
+  border-bottom:3px solid transparent; color:var(--muted); white-space:nowrap;
+  user-select:none; transition:color .15s, border-color .15s;
+}
+.tab:hover { color:var(--text); }
+.tab[data-topic="all"].active   { border-color:#6b7280; color:#374151; }
+.tab[data-topic="mbg"].active   { border-color:var(--mbg);    color:var(--mbg); }
+.tab[data-topic="sppg"].active  { border-color:var(--sppg);   color:var(--sppg); }
+.tab[data-topic="kopdes"].active{ border-color:var(--kopdes); color:var(--kopdes); }
+.tab-dot { width:8px; height:8px; border-radius:50%; background:currentColor; flex-shrink:0; }
+.tab-badge {
+  background:var(--border); border-radius:20px; padding:1px 7px;
+  font-size:11px; font-weight:700; color:var(--muted); transition:all .15s;
+}
+.tab.active .tab-badge { color:#fff; }
+.tab[data-topic="all"].active   .tab-badge { background:#6b7280; }
+.tab[data-topic="mbg"].active   .tab-badge { background:var(--mbg); }
+.tab[data-topic="sppg"].active  .tab-badge { background:var(--sppg); }
+.tab[data-topic="kopdes"].active .tab-badge { background:var(--kopdes); }
+
+/* ── Layout ── */
+.main {
+  max-width:1400px; margin:0 auto; padding:22px 28px;
+  display:grid; grid-template-columns:1fr 296px; gap:20px;
+}
+@media (max-width:900px) { .main { grid-template-columns:1fr; } }
+
+/* ── Filter bar ── */
+.filter-bar {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:var(--r); padding:14px 16px; margin-bottom:14px;
+  display:flex; flex-direction:column; gap:10px;
+  box-shadow:var(--shadow);
+}
+.filter-row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+.filter-label { font-size:11px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; min-width:52px; }
+
+/* Search */
+.search-wrap { position:relative; flex:1; min-width:180px; }
+.search-wrap svg { position:absolute; left:10px; top:50%; transform:translateY(-50%); pointer-events:none; }
+.search-box {
+  width:100%; background:var(--surface2); border:1.5px solid var(--border2);
+  border-radius:8px; padding:7px 11px 7px 32px; color:var(--text);
+  font-size:13px; outline:none; transition:border-color .15s;
+}
+.search-box:focus { border-color:var(--accent); background:#fff; }
+
+/* Selects */
+.select-ctrl {
+  background:var(--surface2); border:1.5px solid var(--border2);
+  border-radius:8px; padding:7px 10px; color:var(--text);
+  font-size:13px; outline:none; cursor:pointer; transition:border-color .15s;
+}
+.select-ctrl:focus { border-color:var(--accent); }
+
+/* Quick chips */
+.chips { display:flex; gap:6px; flex-wrap:wrap; }
+.chip {
+  padding:4px 12px; border-radius:20px; font-size:12px; font-weight:600;
+  cursor:pointer; border:1.5px solid var(--border2);
+  background:var(--surface2); color:var(--muted);
+  transition:all .15s; user-select:none;
+}
+.chip:hover { border-color:var(--accent); color:var(--accent); }
+.chip.active { background:var(--accent); border-color:var(--accent); color:#fff; }
+
+/* Divider */
+.filter-divider { border:none; border-top:1px solid var(--border); margin:2px 0; }
+
+/* ── Article count ── */
+#article-count { font-size:12px; color:var(--muted); margin-bottom:10px; }
+#article-count strong { color:var(--text); font-weight:700; }
+
+/* ── Article cards ── */
+.article-list { display:flex; flex-direction:column; gap:8px; }
+.article-card {
+  background:var(--surface); border:1.5px solid var(--border);
+  border-radius:var(--r); padding:13px 15px 13px 19px;
+  position:relative; overflow:hidden;
+  transition:border-color .15s, box-shadow .15s;
+  box-shadow:var(--shadow);
+}
+.article-card:hover { border-color:var(--accent); box-shadow:0 3px 14px rgba(0,0,0,.1); }
+.article-card::before {
+  content:""; position:absolute; left:0; top:0; bottom:0; width:4px;
+}
+.article-card[data-topic="mbg"]::before    { background:var(--mbg); }
+.article-card[data-topic="sppg"]::before   { background:var(--sppg); }
+.article-card[data-topic="kopdes"]::before { background:var(--kopdes); }
+
+.article-meta { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:5px; }
+.badge { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.4px; padding:2px 8px; border-radius:4px; }
+.badge.mbg    { background:#fef3c7; color:#92400e; }
+.badge.sppg   { background:#d1fae5; color:#065f46; }
+.badge.kopdes { background:#fee2e2; color:#991b1b; }
+.article-source { font-size:11px; color:var(--muted); font-weight:600; }
+.article-date   { font-size:11px; color:var(--muted); margin-left:auto; }
+.article-title  { font-size:13px; font-weight:600; line-height:1.45; margin-bottom:4px; }
+.article-title a { color:var(--text); }
+.article-title a:hover { color:var(--accent); text-decoration:none; }
+.article-desc {
+  font-size:12px; color:var(--muted); line-height:1.5;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+}
+
+/* ── Pagination ── */
+.pagination { display:flex; gap:5px; flex-wrap:wrap; align-items:center; margin-top:16px; }
+.page-btn {
+  padding:6px 11px; background:var(--surface); border:1.5px solid var(--border2);
+  border-radius:7px; color:var(--text); font-size:12px; font-weight:600;
+  cursor:pointer; transition:all .15s;
+}
+.page-btn:hover { border-color:var(--accent); color:var(--accent); }
+.page-btn.active { background:var(--accent); border-color:var(--accent); color:#fff; }
+.page-btn:disabled { opacity:.35; cursor:default; }
+.per-page-row { display:flex; align-items:center; gap:8px; margin-top:10px; font-size:12px; color:var(--muted); }
+
+/* ── State ── */
+.state-msg { padding:48px 24px; text-align:center; color:var(--muted); background:var(--surface); border:1.5px solid var(--border); border-radius:var(--r); }
+.state-msg .icon { font-size:38px; margin-bottom:10px; }
+
+/* ── Sidebar ── */
+.sidebar { display:flex; flex-direction:column; gap:14px; }
+.card { background:var(--surface); border:1px solid var(--border); border-radius:var(--r); overflow:hidden; box-shadow:var(--shadow); }
+.card-header {
+  padding:10px 16px; border-bottom:1px solid var(--border);
+  font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.6px;
+  color:var(--muted); background:var(--surface2);
+}
+.card-body { padding:14px 16px; }
+
+/* Stats */
+.stat-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.stat-item { background:var(--surface2); border-radius:8px; padding:10px 12px; text-align:center; border:1px solid var(--border); }
+.stat-num   { font-size:26px; font-weight:800; line-height:1.1; }
+.stat-label { font-size:10px; color:var(--muted); margin-top:2px; text-transform:uppercase; letter-spacing:.4px; }
+.stat-item.total  .stat-num { color:var(--text); }
+.stat-item.mbg    .stat-num { color:var(--mbg); }
+.stat-item.sppg   .stat-num { color:var(--sppg); }
+.stat-item.kopdes .stat-num { color:var(--kopdes); }
+
+/* Charts */
+.chart-wrap { height:170px; position:relative; }
+.trend-wrap { height:115px; position:relative; }
+
+/* Sources */
+.source-list { display:flex; flex-direction:column; gap:7px; }
+.source-row  { display:flex; align-items:center; gap:8px; font-size:12px; }
+.source-name { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--text); }
+.source-bar-wrap { width:64px; background:var(--border); border-radius:3px; height:5px; overflow:hidden; }
+.source-bar  { height:100%; background:var(--accent); border-radius:3px; }
+.source-count{ color:var(--muted); min-width:22px; text-align:right; font-weight:700; font-size:11px; }
+
+/* Export */
+.btn {
+  display:inline-flex; align-items:center; justify-content:center; gap:6px;
+  width:100%; padding:9px 14px; border:none; border-radius:8px;
+  font-size:12px; font-weight:700; cursor:pointer; transition:opacity .15s;
+}
+.btn:hover { opacity:.85; }
+.btn-excel { background:#16a34a; color:#fff; }
+.btn-csv   { background:#2563eb; color:#fff; margin-top:7px; }
+
+/* Active period indicator */
+.period-indicator {
+  display:inline-flex; align-items:center; gap:6px;
+  background:#fef3c7; border:1px solid #fde68a;
+  border-radius:6px; padding:4px 10px;
+  font-size:11px; font-weight:600; color:#92400e;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-icon">🍱</div>
+  <div class="header-text">
+    <h1>Monitor Berita — MBG · SPPG · Koperasi Desa Merah Putih</h1>
+    <p>Pemantauan pemberitaan media Indonesia · Diperbarui otomatis tiap 6 jam · Data diakumulasi &amp; tidak dihapus</p>
+  </div>
+  <div class="header-meta">
+    <div>Terakhir diperbarui</div>
+    <div id="last-updated">—</div>
+  </div>
+</header>
+
+<!-- Topic tabs -->
+<nav class="topic-nav" id="topic-nav">
+  <div class="tab active" data-topic="all">
+    Semua <span class="tab-badge" id="count-all">0</span>
+  </div>
+  <div class="tab" data-topic="mbg">
+    <span class="tab-dot"></span> Makan Bergizi Gratis
+    <span class="tab-badge" id="count-mbg">0</span>
+  </div>
+  <div class="tab" data-topic="sppg">
+    <span class="tab-dot"></span> SPPG
+    <span class="tab-badge" id="count-sppg">0</span>
+  </div>
+  <div class="tab" data-topic="kopdes">
+    <span class="tab-dot"></span> Koperasi Desa Merah Putih
+    <span class="tab-badge" id="count-kopdes">0</span>
+  </div>
+</nav>
+
+<!-- Main -->
+<div class="main">
+
+  <!-- Article column -->
+  <div>
+
+    <!-- Filter bar -->
+    <div class="filter-bar">
+
+      <!-- Row 1: Search + Sort -->
+      <div class="filter-row">
+        <div class="search-wrap">
+          <svg width="13" height="13" fill="#9ca3af" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.099zm-5.242 1.156a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"/>
+          </svg>
+          <input type="text" class="search-box" id="search-input" placeholder="Cari judul atau nama media…" />
+        </div>
+        <select class="select-ctrl" id="sort-select">
+          <option value="newest">Terbaru dulu</option>
+          <option value="oldest">Terlama dulu</option>
+        </select>
+        <select class="select-ctrl" id="per-page-select">
+          <option value="25">25 / hal</option>
+          <option value="50">50 / hal</option>
+          <option value="100">100 / hal</option>
+          <option value="9999">Semua</option>
+        </select>
+      </div>
+
+      <hr class="filter-divider" />
+
+      <!-- Row 2: Quick period chips -->
+      <div class="filter-row">
+        <span class="filter-label">Periode</span>
+        <div class="chips" id="quick-chips">
+          <div class="chip active" data-mode="quick" data-days="0">Semua waktu</div>
+          <div class="chip" data-mode="quick" data-days="1">Hari ini</div>
+          <div class="chip" data-mode="quick" data-days="7">7 hari</div>
+          <div class="chip" data-mode="quick" data-days="30">30 hari</div>
+          <div class="chip" data-mode="quick" data-days="90">90 hari</div>
+          <div class="chip" data-mode="quick" data-days="180">6 bulan</div>
+          <div class="chip" data-mode="quick" data-days="365">1 tahun</div>
+        </div>
+      </div>
+
+      <!-- Row 3: Month/Year picker -->
+      <div class="filter-row">
+        <span class="filter-label">Bulan/Tahun</span>
+        <select class="select-ctrl" id="filter-month" style="min-width:110px;">
+          <option value="0">— Semua bulan —</option>
+          <option value="1">Januari</option>
+          <option value="2">Februari</option>
+          <option value="3">Maret</option>
+          <option value="4">April</option>
+          <option value="5">Mei</option>
+          <option value="6">Juni</option>
+          <option value="7">Juli</option>
+          <option value="8">Agustus</option>
+          <option value="9">September</option>
+          <option value="10">Oktober</option>
+          <option value="11">November</option>
+          <option value="12">Desember</option>
+        </select>
+        <select class="select-ctrl" id="filter-year" style="min-width:90px;">
+          <option value="0">— Semua tahun —</option>
+        </select>
+        <button class="chip" id="btn-reset-period" style="border-color:#dc2626;color:#dc2626;display:none;">✕ Reset</button>
+      </div>
+
+      <!-- Active period badge -->
+      <div id="period-badge" style="display:none;">
+        <span class="period-indicator" id="period-text">—</span>
+      </div>
+
+    </div><!-- /filter-bar -->
+
+    <div id="article-count"><strong id="shown-count">0</strong> artikel ditampilkan</div>
+    <div class="article-list" id="article-list">
+      <div class="state-msg"><div class="icon">⏳</div>Memuat data berita…</div>
+    </div>
+    <div class="pagination" id="pagination"></div>
+
+  </div><!-- /article column -->
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+
+    <div class="card">
+      <div class="card-header">Ringkasan Keseluruhan</div>
+      <div class="card-body">
+        <div class="stat-grid">
+          <div class="stat-item total">
+            <div class="stat-num" id="stat-total">0</div>
+            <div class="stat-label">Total</div>
+          </div>
+          <div class="stat-item mbg">
+            <div class="stat-num" id="stat-mbg">0</div>
+            <div class="stat-label">MBG</div>
+          </div>
+          <div class="stat-item sppg">
+            <div class="stat-num" id="stat-sppg">0</div>
+            <div class="stat-label">SPPG</div>
+          </div>
+          <div class="stat-item kopdes">
+            <div class="stat-num" id="stat-kopdes">0</div>
+            <div class="stat-label">Kopdes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">Sebaran Topik</div>
+      <div class="card-body">
+        <div class="chart-wrap"><canvas id="chart-donut"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">Tren 30 Hari Terakhir</div>
+      <div class="card-body">
+        <div class="trend-wrap"><canvas id="chart-trend"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">Top 10 Sumber Media</div>
+      <div class="card-body">
+        <div class="source-list" id="source-list">
+          <div style="color:var(--muted);font-size:12px;">Belum ada data</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">Ekspor Data (sesuai filter aktif)</div>
+      <div class="card-body">
+        <button class="btn btn-excel" id="btn-excel">⬇ Unduh Excel (.xlsx)</button>
+        <button class="btn btn-csv"   id="btn-csv">⬇ Unduh CSV</button>
+      </div>
+    </div>
+
+  </aside>
+</div><!-- /main -->
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────
+let allArticles  = [];
+let filtered     = [];
+let currentTopic = "all";
+let currentDays  = 0;      // 0 = semua
+let filterMonth  = 0;      // 0 = semua
+let filterYear   = 0;      // 0 = semua
+let periodMode   = "quick"; // "quick" | "monthyear"
+let currentPage  = 1;
+let perPage      = 25;
+let searchQuery  = "";
+let sortOrder    = "newest";
+let chartDonut   = null;
+let chartTrend   = null;
+
+const TOPIC_LABELS = { mbg:"Makan Bergizi Gratis", sppg:"SPPG", kopdes:"Koperasi Desa Merah Putih" };
+const TOPIC_COLORS = { mbg:"#d97706", sppg:"#059669", kopdes:"#dc2626" };
+const MONTHS_ID    = ["","Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+
+// ── Load data ─────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch("data/news.json?_=" + Date.now());
+    allArticles = await res.json();
+    if (!Array.isArray(allArticles)) allArticles = [];
+    populateYearSelect();
+    updateCounts();
+    applyFilters();
+    renderSidebar();
+    updateLastUpdated();
+  } catch(e) {
+    document.getElementById("article-list").innerHTML =
+      `<div class="state-msg"><div class="icon">⚠️</div>
+       Gagal memuat data.<br><small>Pastikan <code>docs/data/news.json</code> ada dan workflow sudah dijalankan.</small></div>`;
+  }
+}
+
+// ── Populate year dropdown dari data nyata ─────────────────────────
+function populateYearSelect() {
+  const years = [...new Set(allArticles.map(a => new Date(a.pub_date).getFullYear()))].sort((a,b)=>b-a);
+  const sel = document.getElementById("filter-year");
+  years.forEach(y => {
+    const opt = document.createElement("option");
+    opt.value = y; opt.textContent = y;
+    sel.appendChild(opt);
+  });
+}
+
+// ── Last updated ──────────────────────────────────────────────────────
+function updateLastUpdated() {
+  if (!allArticles.length) return;
+  const latest = allArticles.reduce((a,b) => a.pub_date > b.pub_date ? a : b);
+  document.getElementById("last-updated").textContent =
+    new Date(latest.pub_date).toLocaleString("id-ID",{day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"});
+}
+
+// ── Counts (selalu dari seluruh data, bukan filtered) ─────────────────
+function updateCounts() {
+  const c = { mbg:0, sppg:0, kopdes:0 };
+  for (const a of allArticles) if (a.topic in c) c[a.topic]++;
+  document.getElementById("count-all").textContent    = allArticles.length;
+  document.getElementById("count-mbg").textContent    = c.mbg;
+  document.getElementById("count-sppg").textContent   = c.sppg;
+  document.getElementById("count-kopdes").textContent = c.kopdes;
+  document.getElementById("stat-total").textContent   = allArticles.length;
+  document.getElementById("stat-mbg").textContent     = c.mbg;
+  document.getElementById("stat-sppg").textContent    = c.sppg;
+  document.getElementById("stat-kopdes").textContent  = c.kopdes;
+}
+
+// ── Period badge ──────────────────────────────────────────────────────
+function updatePeriodBadge() {
+  const badge = document.getElementById("period-badge");
+  const text  = document.getElementById("period-text");
+  const reset = document.getElementById("btn-reset-period");
+
+  if (periodMode === "monthyear" && (filterMonth > 0 || filterYear > 0)) {
+    let label = "Filter: ";
+    if (filterMonth > 0 && filterYear > 0) label += MONTHS_ID[filterMonth] + " " + filterYear;
+    else if (filterMonth > 0) label += MONTHS_ID[filterMonth] + " (semua tahun)";
+    else label += "Tahun " + filterYear;
+    text.textContent = label;
+    badge.style.display = "block";
+    reset.style.display = "inline-flex";
+  } else if (periodMode === "quick" && currentDays > 0) {
+    const labels = {1:"Hari ini",7:"7 hari terakhir",30:"30 hari terakhir",90:"90 hari terakhir",180:"6 bulan terakhir",365:"1 tahun terakhir"};
+    text.textContent = "Filter: " + (labels[currentDays] || currentDays + " hari terakhir");
+    badge.style.display = "block";
+    reset.style.display = "none";
+  } else {
+    badge.style.display = "none";
+    reset.style.display = "none";
+  }
+}
+
+// ── Apply filters ─────────────────────────────────────────────────────
+function applyFilters() {
+  const now = new Date();
+
+  filtered = allArticles.filter(a => {
+    // Topik
+    if (currentTopic !== "all" && a.topic !== currentTopic) return false;
+
+    // Periode
+    const d = new Date(a.pub_date);
+    if (periodMode === "quick" && currentDays > 0) {
+      if ((now - d) / 86400000 > currentDays) return false;
+    } else if (periodMode === "monthyear") {
+      if (filterYear  > 0 && d.getFullYear()  !== filterYear)  return false;
+      if (filterMonth > 0 && (d.getMonth()+1) !== filterMonth) return false;
+    }
+
+    // Cari
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      if (!a.title.toLowerCase().includes(q) && !(a.source||"").toLowerCase().includes(q)) return false;
+    }
+    return true;
+  });
+
+  filtered.sort((a,b) => sortOrder === "oldest"
+    ? a.pub_date.localeCompare(b.pub_date)
+    : b.pub_date.localeCompare(a.pub_date));
+
+  currentPage = 1;
+  updatePeriodBadge();
+  renderArticles();
+}
+
+// ── Render articles ───────────────────────────────────────────────────
+function renderArticles() {
+  document.getElementById("shown-count").textContent = filtered.length;
+
+  const start = (currentPage-1) * perPage;
+  const page  = perPage >= 9999 ? filtered : filtered.slice(start, start+perPage);
+
+  if (!page.length) {
+    document.getElementById("article-list").innerHTML =
+      `<div class="state-msg"><div class="icon">🔍</div>Tidak ada artikel yang cocok dengan filter ini.</div>`;
+    document.getElementById("pagination").innerHTML = "";
+    return;
+  }
+
+  document.getElementById("article-list").innerHTML = page.map(a => {
+    const dateStr = new Date(a.pub_date).toLocaleDateString("id-ID",{day:"2-digit",month:"short",year:"numeric"});
+    const label   = TOPIC_LABELS[a.topic] || a.topic_label || a.topic;
+    return `
+<div class="article-card" data-topic="${esc(a.topic)}">
+  <div class="article-meta">
+    <span class="badge ${esc(a.topic)}">${esc(label)}</span>
+    <span class="article-source">${esc(a.source)}</span>
+    <span class="article-date">${dateStr}</span>
+  </div>
+  <div class="article-title">
+    <a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+  </div>
+  ${a.desc ? `<div class="article-desc">${esc(a.desc)}</div>` : ""}
+</div>`;
+  }).join("");
+
+  renderPagination(filtered.length);
+}
+
+function esc(s) {
+  return String(s||"")
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+function renderPagination(total) {
+  const pg = document.getElementById("pagination");
+  if (perPage >= 9999 || total <= perPage) { pg.innerHTML = ""; return; }
+  const totalPages = Math.ceil(total/perPage);
+  let html = `<button class="page-btn" ${currentPage===1?"disabled":""} onclick="goPage(${currentPage-1})">‹ Prev</button>`;
+  let pages = [], prev = null;
+  for (let i=1; i<=totalPages; i++) {
+    if (i===1||i===totalPages||Math.abs(i-currentPage)<=2) { pages.push(i); prev=i; }
+    else if (prev!=="…") { pages.push("…"); prev="…"; }
+  }
+  for (const p of pages) {
+    if (p==="…") { html+=`<span style="color:#9ca3af;padding:0 4px">…</span>`; continue; }
+    html+=`<button class="page-btn ${p===currentPage?"active":""}" onclick="goPage(${p})">${p}</button>`;
+  }
+  html += `<button class="page-btn" ${currentPage===totalPages?"disabled":""} onclick="goPage(${currentPage+1})">Next ›</button>`;
+  pg.innerHTML = html;
+}
+
+function goPage(p) {
+  currentPage = p;
+  renderArticles();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+// ── Sidebar ───────────────────────────────────────────────────────────
+function renderSidebar() {
+  renderDonut();
+  renderTrend();
+  renderSources();
+}
+
+function renderDonut() {
+  const c = {};
+  for (const a of allArticles) c[a.topic] = (c[a.topic]||0)+1;
+  const keys   = Object.keys(c);
+  const labels = keys.map(t => TOPIC_LABELS[t]||t);
+  const data   = keys.map(t => c[t]);
+  const colors = keys.map(t => TOPIC_COLORS[t]||"#aaa");
+  if (chartDonut) chartDonut.destroy();
+  chartDonut = new Chart(document.getElementById("chart-donut").getContext("2d"), {
+    type: "doughnut",
+    data: { labels, datasets:[{data, backgroundColor:colors, borderColor:"#fff", borderWidth:3}] },
+    options: {
+      plugins:{ legend:{ labels:{ color:"#374151", font:{size:11}, boxWidth:12 } } },
+      cutout:"60%",
+    }
+  });
+}
+
+function renderTrend() {
+  const now = new Date();
+  const buckets = {};
+  for (let i=29; i>=0; i--) {
+    const d = new Date(now); d.setDate(d.getDate()-i);
+    buckets[d.toISOString().slice(0,10)] = 0;
+  }
+  for (const a of allArticles) {
+    const k = a.pub_date.slice(0,10);
+    if (k in buckets) buckets[k]++;
+  }
+  if (chartTrend) chartTrend.destroy();
+  chartTrend = new Chart(document.getElementById("chart-trend").getContext("2d"), {
+    type: "bar",
+    data: {
+      labels: Object.keys(buckets).map(d=>d.slice(5)),
+      datasets:[{ data:Object.values(buckets), backgroundColor:"#fbbf24", borderRadius:3 }]
+    },
+    options: {
+      plugins:{ legend:{display:false} },
+      scales:{
+        x:{ ticks:{color:"#9ca3af",maxTicksLimit:6,font:{size:10}}, grid:{display:false} },
+        y:{ ticks:{color:"#9ca3af",font:{size:10}}, grid:{color:"#f3f4f6"}, beginAtZero:true },
+      }
+    }
+  });
+}
+
+function renderSources() {
+  const c = {};
+  for (const a of allArticles) if (a.source) c[a.source]=(c[a.source]||0)+1;
+  const sorted = Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const max = sorted[0]?.[1]||1;
+  document.getElementById("source-list").innerHTML = sorted.length
+    ? sorted.map(([src,n]) => `
+<div class="source-row">
+  <span class="source-name" title="${esc(src)}">${esc(src)}</span>
+  <div class="source-bar-wrap"><div class="source-bar" style="width:${Math.round(n/max*100)}%"></div></div>
+  <span class="source-count">${n}</span>
+</div>`).join("")
+    : `<div style="color:var(--muted);font-size:12px;">Belum ada data</div>`;
+}
+
+// ── Events ────────────────────────────────────────────────────────────
+
+// Tabs topik
+document.getElementById("topic-nav").addEventListener("click", e => {
+  const tab = e.target.closest("[data-topic]");
+  if (!tab) return;
+  document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+  tab.classList.add("active");
+  currentTopic = tab.dataset.topic;
+  applyFilters();
+});
+
+// Quick chips
+document.getElementById("quick-chips").addEventListener("click", e => {
+  const chip = e.target.closest("[data-mode='quick']");
+  if (!chip) return;
+  document.querySelectorAll("[data-mode='quick']").forEach(c=>c.classList.remove("active"));
+  chip.classList.add("active");
+  currentDays = parseInt(chip.dataset.days);
+  periodMode  = "quick";
+  // Reset bulan/tahun
+  document.getElementById("filter-month").value = "0";
+  document.getElementById("filter-year").value  = "0";
+  filterMonth = 0; filterYear = 0;
+  applyFilters();
+});
+
+// Month / Year selects
+function onMonthYearChange() {
+  filterMonth = parseInt(document.getElementById("filter-month").value);
+  filterYear  = parseInt(document.getElementById("filter-year").value);
+  if (filterMonth > 0 || filterYear > 0) {
+    periodMode  = "monthyear";
+    currentDays = 0;
+    document.querySelectorAll("[data-mode='quick']").forEach(c=>c.classList.remove("active"));
+  } else {
+    // Kembali ke "semua" quick chip
+    periodMode = "quick";
+    document.querySelector("[data-mode='quick'][data-days='0']").classList.add("active");
+  }
+  applyFilters();
+}
+document.getElementById("filter-month").addEventListener("change", onMonthYearChange);
+document.getElementById("filter-year").addEventListener("change",  onMonthYearChange);
+
+// Reset periode
+document.getElementById("btn-reset-period").addEventListener("click", () => {
+  periodMode = "quick"; currentDays = 0; filterMonth = 0; filterYear = 0;
+  document.getElementById("filter-month").value = "0";
+  document.getElementById("filter-year").value  = "0";
+  document.querySelectorAll("[data-mode='quick']").forEach(c=>c.classList.remove("active"));
+  document.querySelector("[data-mode='quick'][data-days='0']").classList.add("active");
+  applyFilters();
+});
+
+// Search
+document.getElementById("search-input").addEventListener("input", e => {
+  searchQuery = e.target.value.trim(); applyFilters();
+});
+
+// Sort
+document.getElementById("sort-select").addEventListener("change", e => {
+  sortOrder = e.target.value; applyFilters();
+});
+
+// Per page
+document.getElementById("per-page-select").addEventListener("change", e => {
+  perPage = parseInt(e.target.value); currentPage = 1; renderArticles();
+});
+
+// ── Export ────────────────────────────────────────────────────────────
+function buildExportRows() {
+  return filtered.map(a => ({
+    "Topik":     TOPIC_LABELS[a.topic] || a.topic,
+    "Judul":     a.title,
+    "Sumber":    a.source,
+    "Tanggal":   new Date(a.pub_date).toLocaleString("id-ID"),
+    "Deskripsi": a.desc,
+    "URL":       a.link,
+  }));
+}
+
+document.getElementById("btn-excel").addEventListener("click", () => {
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(buildExportRows()), "Berita");
+  XLSX.writeFile(wb, "monitor-mbg-" + new Date().toISOString().slice(0,10) + ".xlsx");
+});
+
+document.getElementById("btn-csv").addEventListener("click", () => {
+  const rows = buildExportRows();
+  const headers = Object.keys(rows[0] || {});
+  const csv = [headers, ...rows.map(r=>headers.map(h=>r[h]))].map(
+    r => r.map(v=>`"${String(v||"").replace(/"/g,'""')}"`).join(",")
+  ).join("\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob(["\uFEFF"+csv],{type:"text/csv;charset=utf-8;"}));
+  a.download = "monitor-mbg-" + new Date().toISOString().slice(0,10) + ".csv";
+  a.click();
+});
+
+// ── Boot ──────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>
