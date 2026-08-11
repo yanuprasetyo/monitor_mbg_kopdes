@@ -1,5 +1,595 @@
 [
   {
+    "id": "42b5409d1d28",
+    "title": "Verifikasi KDMP Manokwari: Masih Banyak Temuan Kekurangan - Tabura Pos",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQam1DeWE5SWo3V1ZsbUJ0a055WHNfcmV3bzA4WjRXdUR4aXpaR2d4WXM0ZGJxMWhMR1czZERObERJc283UnRRLXBpbVdWMVlKb1ZIbjdSWTNTRmpVUlFXLUVqUkpieWxqWjNnc0RqYUV0b1FKNUJpNjlXSHJtcURWdmFRNzYtV3pkMnVta2ttRnhkVlk",
+    "source": "Tabura Pos",
+    "pub_date": "2026-08-11T07:11:10+00:00",
+    "desc": "Verifikasi KDMP Manokwari: Masih Banyak Temuan Kekurangan&nbsp;&nbsp;Tabura Pos",
+    "topic": "kopdes",
+    "topic_label": "Koperasi Desa Merah Putih"
+  },
+  {
+    "id": "90a5b0779c33",
+    "title": "Ledia Hanifa: Label Batas Waktu Konsumsi MBG Penting, tetapi Harus Disertai Edukasi dan Pengawasan - Fraksi PKS",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMnFBa1BDVEt4eE0xcEdxU2l6TjJmM2FRd0gzYkFpZmtQaWxZeHEyRURralg1WjJWZmYtZDB2MVhyN0hTbnJPbnR1NnRsRGpOOGhQRlZfYXpzOG9SdDBjbC0zaDRaYy12S05aQk9vMFFoODVRSHJ4SXhqV3NQU2xFUExxTVRCM1Y5Z3FZVjVXc2dXTElJcTJ0amd3Y0MtU1lKcFJkQ2lqZFdOS2RHd2JNcmRBR1N5YUo5SS1uWVlSYkJzYU9oTUd5UWdn",
+    "source": "Fraksi PKS",
+    "pub_date": "2026-08-11T07:05:23+00:00",
+    "desc": "Ledia Hanifa: Label Batas Waktu Konsumsi MBG Penting, tetapi Harus Disertai Edukasi dan Pengawasan&nbsp;&nbsp;Fraksi PKS",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "c584a36c2405",
+    "title": "BGN Terapkan Aturan Baru, Makanan MBG Tak Boleh Disantap Lebih dari 4 Jam usai Matang - RCTI+",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU3EzZkhQSUc2NzJ3Sl9YYjRUOURXdTJYY250R2JWRTFOR0VWRkUxTmNNYnFQdnVxemtKTnQxZDJ0ejdvbWU4dVJmU0w2bG9xbVg0M1ZKeHR3Qjd3VFFpc3hEQllLOUdhS1Z3ZGIyR1J2T1g5d3F6MFNyT3FkQnAwUFRreUxoemRiVmoyWkVCNXlZeHMxdEFoZ0JrMDJSM214WXlkeUoxRk9RNmtKb3BsTjFNT1ZIOXAyQ1B6dFhla0pxeXdNUmJYb2VqVjlURXJJQUtjZ3QtR0c",
+    "source": "RCTI+",
+    "pub_date": "2026-08-11T07:00:09+00:00",
+    "desc": "BGN Terapkan Aturan Baru, Makanan MBG Tak Boleh Disantap Lebih dari 4 Jam usai Matang&nbsp;&nbsp;RCTI+",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "9ad8f8e18717",
+    "title": "Update Keracunan MBG di SMKN 6 Semarang: Hasil Lab Temukan E Coli, Salmonella, dan Staphylococcus - regional.kompas.com",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVHNEdEcyQVdwalVDdGg4V0NfRC1UZW55bHJYeGpjQ0VBdXZBMlJLeElRNVhBcHpPdElQb044NlhfVnVpanBUVDJCS2xNTzlOSjhvTzRkUWpoMnVkNWp5UXg5dVlVN1hpRENDZ05TOFVDRy1oVzVqcmlyZTFFLXBwTlpoRk1GTE9YVXdqT3NwSUI5LW16T29JWmhWcWtIZFFsMGZMT2Fjek9lWlZTZGoyaG50MXhtRmJEVVplLTRkakx3cmktU20xQw",
+    "source": "regional.kompas.com",
+    "pub_date": "2026-08-11T06:53:00+00:00",
+    "desc": "Update Keracunan MBG di SMKN 6 Semarang: Hasil Lab Temukan E Coli, Salmonella, dan Staphylococcus&nbsp;&nbsp;regional.kompas.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "e6542e5053bc",
+    "title": "Satgas TMMD ke-129, Sosialisasikan Program MBG di SD YPPK St. Pontianus Ngond We Wanam - Media Pemersatu Bangsa",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZmFjcUVJN2h6NVBBcHRaZ3dCcEZNN2VxVkpBS0pKdW9mZ2lHb1RLemZrcHZ5eUdxb21aOFBKUlBXUUhxX00yTVpjbkxHR0hEaW1vMVhHZ2pkQm1JcURtMThYaHQ5S3IzbEFlOEt1WWNNc2EycU5OZmZ2RTBNSURGX0ZSQXRoOFBLOHdUcXhsLTNXODhucDBBYzlSdUtUa3ktU1VGTDgwaVg2T3J2U1k0bm8tRmlpbWw2T1E",
+    "source": "Media Pemersatu Bangsa",
+    "pub_date": "2026-08-11T06:50:24+00:00",
+    "desc": "Satgas TMMD ke-129, Sosialisasikan Program MBG di SD YPPK St. Pontianus Ngond We Wanam&nbsp;&nbsp;Media Pemersatu Bangsa",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "5daad074a908",
+    "title": "Cegah Keracunan MBG, BGN Larang Siswa Bawa Pulang Makanan - Bisnis.com - Ekonomi",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTk9pZ0NFNV9iSTFiVmpNTUVWNnhVTmhDdThOZWtKRW83amFmUHd5QjBfU1lPb1dzNEdtcEpqeWRFMk03dzFtUktsaTFhRXNVdFJDREhtWEJKWmliNDVVN3dJVzhFaTlYc1Y3QW5UOHlnV2VkWk9ubS01UTBMNTJmZXdJa28yZVNrNk83djhyaHgtMUQ3Y1hnSS05Sm5lYWZDTFRmZ0lXT2ZTaUoz",
+    "source": "Bisnis.com - Ekonomi",
+    "pub_date": "2026-08-11T06:40:00+00:00",
+    "desc": "Cegah Keracunan MBG, BGN Larang Siswa Bawa Pulang Makanan&nbsp;&nbsp;Bisnis.com - Ekonomi",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "64d88c090f76",
+    "title": "BGN berlakukan batas waktu konsumsi MBG maksimal 4 jam setelah matang - ANTARA News Gorontalo",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLVhROXdzeFJ1eV9pR3oyM1U5MTgweG54RVp1bEt1bzBQTGlvNUIwVFZyTnk4T09UUjlfeXZYZWQ1UXdOOGIwWmVUNlVSU0VqekdIbTFVeEQ4YXZqVmtobG5jRjBlUHpMTU1nTlR6QXFvTG5oOFBYNGJEYmctNExDUkZUYmlGR3cxb3NqZTZodFFLcFZBYjE2ZmFrbFBxU2p5OGpTYkpGYW51ZWc2azJYOHdGdlhEZlXSAbwBQVVfeXFMT3BjMzRCMGR3cmVXV3FPYjFxYVdlTUhCUGV3aW1BZjJwYUg0Ri1yeUlubXA1a2JIQjBtb2lMV1dvZGdHWVVaanNxVXlwXzBPaE56MUowQ1BHY1BqVXpIZlIxMXNwelVaRTJYTGRhSzNrRGFLb0hNeGZvUk1KNW5wenNXUmxibVc1TVUwQ25SZDM1R3ZjMXlKTGdFYW1Fa0d4SWNuTU5SUlJIaFZvZW5Bd0FoRDV6c3M4RC0xdzk",
+    "source": "ANTARA News Gorontalo",
+    "pub_date": "2026-08-11T06:37:21+00:00",
+    "desc": "BGN berlakukan batas waktu konsumsi MBG maksimal 4 jam setelah matang&nbsp;&nbsp;ANTARA News Gorontalo",
+    "topic": "sppg",
+    "topic_label": "SPPG"
+  },
+  {
+    "id": "80510ce8abbc",
+    "title": "Bisakah Pencatut Nama Prabowo di Makalah MBG Dipidana - tempo.co",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUFQzSlpXRjZjeHNqblhlUlNsMlBYQzNkMlhPUjFWeXBna0hUaC1mMnlvQVBwMnhmb1hYZktUXzNqWlRzREhBdXBzSGxQeEotWXVSVjNPdUdpWnVZcWtseXVBUTItME9qT1NMdWZrZW14Q21GMVhfb3FGcnYzSHFXOTVfODhLRFVFM3FIUXNqX1podw",
+    "source": "tempo.co",
+    "pub_date": "2026-08-11T06:35:00+00:00",
+    "desc": "Bisakah Pencatut Nama Prabowo di Makalah MBG Dipidana&nbsp;&nbsp;tempo.co",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "f9248341feb1",
+    "title": "Diduga Jadi Korban Penipuan Jual Beli Titik Dapur MBG, Warga Kediri Rugi Ratusan Juta - beritajatim.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdnRITlNaa0JfWnVtOUpURGoxYS10TGFpVFZsdEpFRmlWMDNzRUJTbkQzSmR6TWJpYVBSaUpSRHRvZHpXdDNHMFJoYlZxX2taS1J5bkFKMUZ4cmFXLU8td2UzbzZjV2FrWVQ5SkR6QTlsUl9tRDhxYk45YVNJT1ZKRF9aV09obFI0eElvSlg3V1ZLbElaWUpDT3JPZ1cySHpsd084T0V6ODRHRzFT",
+    "source": "beritajatim.com",
+    "pub_date": "2026-08-11T06:33:26+00:00",
+    "desc": "Diduga Jadi Korban Penipuan Jual Beli Titik Dapur MBG, Warga Kediri Rugi Ratusan Juta&nbsp;&nbsp;beritajatim.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "142e23464734",
+    "title": "Pengelola Program MBG Kertamukti Pastikan Menu Disusun Beragam dan Sesuai Standar - RADAR NUSANTARA NEWS",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQclk1Ymd5VUJiQXVqLVJ1T01Ud1pPZjBUZEdoNGUzZ2g5SXFNY25YZ3dKMkFlNXV0b0ItemUySk9tYXVwNDFIUUkzYUkwT1FEb1Ezd1F1bFNWb0FjWVptSVlHaVMtUlZsdG5BTUI0azljQkJqdHZ6T25IYk9DbUtpVw",
+    "source": "RADAR NUSANTARA NEWS",
+    "pub_date": "2026-08-11T06:25:00+00:00",
+    "desc": "Pengelola Program MBG Kertamukti Pastikan Menu Disusun Beragam dan Sesuai Standar&nbsp;&nbsp;RADAR NUSANTARA NEWS",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "b120af5c6fd7",
+    "title": "Cek fakta, kartu ATM MBG untuk penyaluran dana MBG ke siswa - ANTARA News",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRk9HNFY4ZmNSUFVQSVBvNGNEaXptb0hJZUdULU1yM01TQ3FhZlA3bnJHUXdCcmdydGFMZFdITENHSEtYb21rd1ZNZ3VKX3lzSGpVZXZaU2I4MDJwVHBDSTQxV29RdDZLeWF5MFlOTGFpcEJSVWw3U1pQMkJMc3hlNTlRMnlCVnB2QXVOeTVDWktheHZ0eFUxVlZqNWxtdVdBZXfSAaQBQVVfeXFMTlpvY2xzLW1aTEhIU0NPSVdUY05iUS0zd0FXaGNHNkhlbTZiMDgzRzhDMDhNaTRHbmg1MzVqTlNYT1lYYW5ZeE9zakI4VW95VWtEbzY4V0RqNVU2VkptdkpDYnh2ZDUxelpiajZkOUJJZ0ZERUtST0p0TkJMQzlQNTdqNlh1OG5HYnA2b2RnVWlYZ1NlZWJ6UmNTcmdwRzlOY2s1aTQ",
+    "source": "ANTARA News",
+    "pub_date": "2026-08-11T06:22:08+00:00",
+    "desc": "Cek fakta, kartu ATM MBG untuk penyaluran dana MBG ke siswa&nbsp;&nbsp;ANTARA News",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "6b32771ae8a2",
+    "title": "Kasus MBG Bontang; Dua Kepala SPPG Dicopot, Dapur Sementara Berhenti Beroperasi - Bontang Post",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQTczWlFycHBOaFk0ZmVrMjRNVU1rNW15Yl9qU19wOHhSLXBkVnljZ1pCaG9WOTVTYjFNOXAydHRxMzNMd2xSQ1BTTDF6b1FZNEVPQlVjLW5SUUN2QXgzaTBIcFZmbnlXYzdiU3JLTUJ3RUp1ajA3a1lkX1Vva0k3bWFyQVBlVUR6MjUtUzlpY29sV1FHUjB6NTc0YVZlWFZENjU4",
+    "source": "Bontang Post",
+    "pub_date": "2026-08-11T06:14:57+00:00",
+    "desc": "Kasus MBG Bontang; Dua Kepala SPPG Dicopot, Dapur Sementara Berhenti Beroperasi&nbsp;&nbsp;Bontang Post",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "53a8627cdf1f",
+    "title": "Kabut Asap Kalbar Pengaruhi Distribusi MBG, SPPG Sesuaikan Produksi hingga Alihkan Makanan - pontianakpost.jawapos.com",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQXlWdEJXbnVCQm1CQ3FVQjZOTUNHajhDQ2JpcE9kVVUxa1BVTkxrMDdsSDZVNEUxS0xlX2o0TElGWU4zSExIdktrWk4xUC1hemxUdGtzc1BMUEhBbnQzWTg4SzJhZW1TemtPVkNuWTFuUnRmOHZ6VjZPeUlmS1NVUUhaVTZIdVdJRlZ3MUFISVAyNTY4T1VHYkpGV2hid0NsZ0VweHp1RU5saDJGN3NFMzdSUThWZTdrZ0lCeG5mS3ZNMDRvc3VzYW9NTjktOG9fVEhoaTZUVFFDd3RmZVHSAeMBQVVfeXFMTmhrM0VrU29weTlYNjZsejFoWFpDMEVnMDFJTWs4SF96TVhSUU1jS3VBQlV5enF0YlhCc1hpTE5GZ3B0S1BBQnRMcEtkalNIemtjU3JqZWJha1ZCU3Y3RC14NXpKQnVPdGR6amhVdXlJS3lQWGduOXhuT0lBVXVySm9lMXZRd3E5Y3VxZzBDd2FuZGUzWjZ6SzUtdzdVaWdiSURFd1kzM3k5dDk1M1RsREs5SEZpemZQSWJmRXl3bUNVdVBZdktvblNSbXpTZ3lOTHViOUFITkxMUjFSWDRaNHJEQU0",
+    "source": "pontianakpost.jawapos.com",
+    "pub_date": "2026-08-11T06:09:51+00:00",
+    "desc": "Kabut Asap Kalbar Pengaruhi Distribusi MBG, SPPG Sesuaikan Produksi hingga Alihkan Makanan&nbsp;&nbsp;pontianakpost.jawapos.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "9e58b0defa15",
+    "title": "Resmi Berlaku! MBG Wajib Habis Maksimal 4 Jam dan Dilarang Dibawa Pulang - Aspek.id",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQXJneEp6dVhuanBYYTZDMmR4c0E4R250WDMxZTFrTTN6eFYyazJ6Z0xlYXJ6b3lQdTJvUXNFRVphV1gxellrdVpHaVk2bGpOTl9qa2cwUldYeDVTdDRCMFJWN3pvMWd1MFhYZ09aY1ZqQ3ZxalRJUkNOSHNBUjZZVGdfMU02VHJwNWF6QjRIaTE4QWs",
+    "source": "Aspek.id",
+    "pub_date": "2026-08-11T06:06:24+00:00",
+    "desc": "Resmi Berlaku! MBG Wajib Habis Maksimal 4 Jam dan Dilarang Dibawa Pulang&nbsp;&nbsp;Aspek.id",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "20be41a7e4ca",
+    "title": "BGN Ingatkan MBG Tak Boleh Dibawa Pulang, Berisiko Keracunan - detikHealth",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMGhTU20xUUg4cy1ZLTJ2V2cwVW9UTWZhS29Ld29XSmVDVDJoNkQxd0RDSFpWSHFPWF9LYlV3ODBGWmEzalFNTjZtUi1qMXlZbFd0QUdtUTFwemRoSjlXaHhiRHJDU3ZvNnVmbXFFMlZnTXp4Tlg0U2x3Xzc4Tl9XZ2xPNlR3RkJsNGg5UFVEbUFSd044eWJ4c1JLYlp6X1RkRzNYOXY2SmFYUFNEcmE1TElld9IBuAFBVV95cUxNNGpDSV9NSDdPMVd5Zzl5OTNZVDBVVlZoMW9YSnBaQjZYYzhkZm9vU3JEWmY2WGN4VDhSdFMxSFVhakNnOFRBSi12Vk44RTV5Z1VHYXhUa0NhbkUtcm9jYjhYeUZNdzFQRS1zNjI1T2wzakV2RnU1OHZ6eDgzOE9QZTJUTjAzRklOb2o4cE13RHdEZldmMkItMFI3SG1SdHFwYU13TG9RZmFHQUM5VVNoNDB5R051RU1Q",
+    "source": "detikHealth",
+    "pub_date": "2026-08-11T06:06:04+00:00",
+    "desc": "BGN Ingatkan MBG Tak Boleh Dibawa Pulang, Berisiko Keracunan&nbsp;&nbsp;detikHealth",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "5dab61aa4d8e",
+    "title": "MBG Lewat 4 Jam Dilarang Dimakan, BGN Wajibkan Label Batas Waktu di Setiap Ompreng - bataviapos.id",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYU1qZHpCczVsNVA4NGJUaHVFYXhYeUtHNkVHb041YVZHMlFGcXhpY09ONER4Z25XRXJPdGhlYWxBQ3ZDamI3c2FsUHROV2dJRWs2WVRod3BpWU14eVdBbVpfYi0xaHl5WlJjb3dXVmM0ZlQza2xoNjdZSWhyZVpKVUNmTVBUeGtKeEM2cUt5c0YzVzQ1TXJ3SUFCVEJ4ZGxIVXFxWGpfVGwzdEVRMjkwOFFseGRMUk05",
+    "source": "bataviapos.id",
+    "pub_date": "2026-08-11T06:00:58+00:00",
+    "desc": "MBG Lewat 4 Jam Dilarang Dimakan, BGN Wajibkan Label Batas Waktu di Setiap Ompreng&nbsp;&nbsp;bataviapos.id",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "1adfbad9851e",
+    "title": "Kepala BGN Tetapkan Batas Maksimal Konsumsi MBG 4 Jam Setelah Matang, Lebih dari Itu Jangan Dimakan - Kompas.tv",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVmhQTEF5ZnNqRWlGTGNSQ0JPUU80emNYQWNOblhRRWhQNS1Gb3dXOWEweVdfQkhtWXRUYUR6V2tKNV93RTFoWFlreEVCTlI1S2hyVWV1MUpRcG9obXRLWFNDNnBRdHUwQ0h3cXVueUlmSkdQT0ViSnQyeC1wOFdqWDk4dk5lVndDM3Vna1liVmIzVjFCZUdveFRwYk9GWEpUNi1MMTlhRzNBdEJoejdidDViMW1EVlo5THR2TmNMNnBFNEVPWTR2N1AycEFEN1RIZmfSAdcBQVVfeXFMT3l5OTVvbXQ0cUpJOUlac09IM3daTU81d2JrU0tZOE1xNzhJVHJSczhjSXcwa3N5WExJQl9kdXB0WGJrc0pfbVFlU3BIa0FVMk5HT1BuTS1pTjY1Q3FVRlZpRVhVXzZ1YUcxNWhxR3ZUZldxbDd3SmJENXVLVEJCY0Nud2N1aWhISnRZMWExRDg0NGNLbC1mb3EzTW5oZER0MTI1RHhRc1dNQS1XbXB2OGtzRElqRTVXc0R6WVdqMVB2bEpCZVBobVBDM2ZfNHNjRXhFaXcyeEU",
+    "source": "Kompas.tv",
+    "pub_date": "2026-08-11T05:48:00+00:00",
+    "desc": "Kepala BGN Tetapkan Batas Maksimal Konsumsi MBG 4 Jam Setelah Matang, Lebih dari Itu Jangan Dimakan&nbsp;&nbsp;Kompas.tv",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "3cf7a23baf69",
+    "title": "MBG untuk Semua: Sama Rasa, Tak Bersekat - CNN Indonesia",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWW9iZDRhZktkcjAzQWtfbzMycmM5TG5ycDVxUG9DNkhjaGhYZTc5TndvMXBneHVSUFJlbGpNcFMyY0FRVXFMTFRNNmF5M0dNN3czZ1B4dnpOQlM0R0pLY0EtNzVrWExGYWZkMkM0N1JKTGxnNklQX3FaLTFjTHNKMTVWSkFmeTRXQ1FrMEYzYm9wRGVNRENNVVJ2dUtldVo3UFEtc9IBqgFBVV95cUxNXzM0WWo3Qmw3Sl9MdVZCRlNTbFM2ZGRaTnhGWlRMU2xFMWpVRU04MU4wTmZEQ3lDWWRDYk9kTGtpYmJDaEdja3NzQkZyR2JNNi1HUS00MmNOMU9tdW01YUFKZUVYN0RsZklxbVRkZkR6XzZ1eVRHSnBka2pvRlJuT0kyakR6TU5JTm9TcGZuX3k3bmU5REU1YTI4SFBfZnlZVnRuRllkZ1U4dw",
+    "source": "CNN Indonesia",
+    "pub_date": "2026-08-11T05:45:26+00:00",
+    "desc": "MBG untuk Semua: Sama Rasa, Tak Bersekat&nbsp;&nbsp;CNN Indonesia",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "4fee2a37632a",
+    "title": "Serap Aspirasi, Misbakhun Dorong Mitra SPPG Ikuti Proses Perbaikan MBG - SINDOnews Daerah",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPel9KS2RMd0Jkcjc0TDgtb1dZdFp4OHg1SmJ2T0VsSGljX1NsbGpiblhRRUlzSGNHdXg1dGJEcEI2TmRveEFBd2k0S3dJZDVYOENPZmJqeWFNV09kR193dmNoNGczVmFaNlBhUVAzcWxMTDNOcDIzWkJ4ZmV1NlpXM2N0RHZXWjFOb01STm1Vd3JNbEF1aDUyYUhLdlBUYlJhVGZhWFM2Z25EdHBUcU5FazFFSms1XzhXTVhYVTdBOUJjYk1q0gHKAUFVX3lxTFBQVWNmQ2J2WUt2UmtVWkFDVEJTd1lVT3B6clQ0SEI1Y1RSZ2NvQzJLdE1WeTlabzlXblMwakpUam1xMDJvSG5pbkpKZ2tpUFp6VDh4RFF6T1JWX1ltSTJERFNiQ2RQMmMtdk52alpyLWs5RG5CdHV0SVh4LU83VW45WEZoS19rREFUbEZBVTJQSmxpMl9LM19kVm9kNVk2LWNRWUNTRDdKODhLR1VmSzFaU3pyMC0xZTNuazUtb3RFQmNNN0VkbDBEbmc",
+    "source": "SINDOnews Daerah",
+    "pub_date": "2026-08-11T05:42:55+00:00",
+    "desc": "Serap Aspirasi, Misbakhun Dorong Mitra SPPG Ikuti Proses Perbaikan MBG&nbsp;&nbsp;SINDOnews Daerah",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "f58dcb4866b0",
+    "title": "Terungkap! Biang Keracunan MBG SMKN 6 Semarang gegara 3 Bakteri - detikcom",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPREFycTc4Ym9iblVDcDNTSGl5dnlveTBOTUI5b1UzUTNvOTcwcEw0a0EwdkRpSWR2eGZXS3JXZDV3SDlEMzlUZDlBYWRQeEdQUmVsYVRZY2xKU1plbVktUEUtTVhod2ZHZFFrRVFMdll1RHhmMV85UzhhVVpLTElzOUN4bzRiVXJVU2xsZ0l6bGlneWc1RmhqMkdEQXlDMUU2c0d4Y0NYdk1zdFp00gGyAUFVX3lxTE5ZbDF4YnRpRWFHRlgxNGdEMGF4cHdkWlNUckNBTEdkcDFNV2FzbUVBUTBYSGJScFdXM1FoTkNkSnZkaEVZR292T0ZfLVlKdWduajNlVzlZUzNJT01CTHJwMUQ0UUU1NlJTbzhJUHlMVEdhdkJJYVhwUGlydy12X1BWR1Fad0hRbGFZbzFfWkM4djgxaE1GS1ExZndvMXlMWmtDZXFWR1ZpYUNONmRJSlE2WXc",
+    "source": "detikcom",
+    "pub_date": "2026-08-11T05:30:30+00:00",
+    "desc": "Terungkap! Biang Keracunan MBG SMKN 6 Semarang gegara 3 Bakteri&nbsp;&nbsp;detikcom",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "6e563977d0f2",
+    "title": "Wabup Meranti Tinjau Dapur SPPG, Tekankan Kebersihan dan Pengelolaan Limbah - BeritaRiau.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbjl5THFvaFR4Zl9FRktmTzU0blQ1dmZfQmdMNFZka1haTmpCUFlXUmhOX214ZllfT1VSeUxqSEY0ZVNnSDl4eFlNeFRCMW0xXzlmdUJGYTFvUnVVeVRpMzFMLTRVY3ZmTm41TUUzU2VNNVVTNUtBRWRCX2tES0RkODRVWlk5RDhiRmg1UXhDTTVFVkx3X0c1S0d2bkhLRmpKTDFFNWJVbkZRM0RUUnFTVERnLUhmNGRUdzdv",
+    "source": "BeritaRiau.com",
+    "pub_date": "2026-08-11T05:22:03+00:00",
+    "desc": "Wabup Meranti Tinjau Dapur SPPG, Tekankan Kebersihan dan Pengelolaan Limbah&nbsp;&nbsp;BeritaRiau.com",
+    "topic": "sppg",
+    "topic_label": "SPPG"
+  },
+  {
+    "id": "cd69afa871a5",
+    "title": "Menakar Fakta di Balik Polemik Koperasi Desa Merah Putih: Dari Kesiapan SDM hingga Rantai Pasok MBG - sulselinfo.com",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaHJ0M2hubjBSeTJyc3EtZW5fNVRmTklZSWZZUEJuLUlWd0N0aE9UcUhDTEpBcGI0UkxkSW9sc2M5enJpUVVNMTcyU2J2QUNINVp3VmFhZU9YQXVSamxTeHExRVB3QmRsS0doQUk2ZEo4MGdjNlRwQlZtSmE5VUExa2Fqc2UxZWhVaGhEQ3VRM2d6bWFyRV95djNTcTU5NjlYVGdLeWtRcmF2MHlLSWhEUkJwUjhuQkNJWkl6UWc4YTljZWM",
+    "source": "sulselinfo.com",
+    "pub_date": "2026-08-11T05:11:45+00:00",
+    "desc": "Menakar Fakta di Balik Polemik Koperasi Desa Merah Putih: Dari Kesiapan SDM hingga Rantai Pasok MBG&nbsp;&nbsp;sulselinfo.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "690947554828",
+    "title": "Pembangunan Rampung, Gedung KDMP Kampung Trikora Menunggu Difungsikan - kaimana news",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU0ZIS1dFY3JxQThUdGNvYnBCTHdpeVNxWGltemRDSnEyMTkyQ0RJNVptaUlqVFNZRHdKVnRrY0ljNXlEam5WNXFHX3NvcjVBRk40OUcxa3RKcmxZUnQ4dVBTSEk2ZThHaW9MaHA5VlhPUy1GRUN3RW5yUm5PX21UZnZpRU55Tk5ScEdfNkY5a1BscGRXSjhsVw",
+    "source": "kaimana news",
+    "pub_date": "2026-08-11T05:04:29+00:00",
+    "desc": "Pembangunan Rampung, Gedung KDMP Kampung Trikora Menunggu Difungsikan&nbsp;&nbsp;kaimana news",
+    "topic": "kopdes",
+    "topic_label": "Koperasi Desa Merah Putih"
+  },
+  {
+    "id": "2263b39910e2",
+    "title": "Mas Dar Ingatkan Makanan MBG: Wajib Dimakan 4 Jam Setelah Matang » - dialeksis.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNlZJOGd5Si1TQS11ZTlsOEJpSFY2VWVaLS1uNktLb1hWX2lCLUVmellIMkpmem03b2ZtVFpKTjIzdU04Z2d1ZVhJcFdpRmM5WjB3MDFVdGd5QzROOEZnMVBWQ19obmRmODFpeFFVV1Rkakx3RmZSdXQzbzhGcGVYTnc0NWxQNXVwTFNjUUluc3JkTWViOUtpX3M3WdIBoAFBVV95cUxQZzVqSzFEUUxabmxLbE5OLVRpRDNfQTRyMmc1ZFptdTRCSmJBdFF4NEVLaXV5US1FOHh4LXJkdmJMcnN2ZDRUX2NqUTlMTmx5TDBQYWx5R2JhcjJVdUxaa3Y2UklSS3M1SGlvamlNT09WWlVjYi1SVXdLdDloYmkzUmktaUdySGdveV9Qa2Y1QXVabnYyb1hpU2hLMF9EeWYx",
+    "source": "dialeksis.com",
+    "pub_date": "2026-08-11T05:00:00+00:00",
+    "desc": "Mas Dar Ingatkan Makanan MBG: Wajib Dimakan 4 Jam Setelah Matang »&nbsp;&nbsp;dialeksis.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "1dd17c5a8714",
+    "title": "Wabup Meranti dan Korwil BGN Tinjau Dapur SPPG: Tekankan Kebersihan dan IPAL, Pastikan Sesuai SOP - Merantikab",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaDlaZG1tQTZDUTg5cmdteDN2OXA0aG1WLTJLd2xmeEdtdUQ3ZWVIY3BGNjA2ZjdRSy16Q0dwbDhDN0x4aGlvMVE5N1pVU3NKTU45TXY1Ync0VGZtWkw2MEMxelB6QmQzeExlWFRUMmpvNEN5Q044OUtSMUlNTjBhS0U0RjVpc1RCUDRDTTJoc2RrZTVVSkdKNG1nUm4yNXU0b2dCT1VYRTJJMnNRdDUzN3FWbFU1T1RUbVRYT0dIT3F2ZFJ1OEE",
+    "source": "Merantikab",
+    "pub_date": "2026-08-11T04:52:51+00:00",
+    "desc": "Wabup Meranti dan Korwil BGN Tinjau Dapur SPPG: Tekankan Kebersihan dan IPAL, Pastikan Sesuai SOP&nbsp;&nbsp;Merantikab",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "f18537511e5c",
+    "title": "BGN Terapkan Rules of 4 Hours, MBG Harus Dimakan Maksimal 4 Jam Usai Matang - nasional.kompas.com",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM09TaEtRMVdzRTJHdjFJVGtQVEhMTXpfR0FyOGhqdHNlWVZycTc3Z1FCVFV5aXhzR3dMVUF5dnFWc2FXRFJEcVlvLXJuaVIyZmJVZ0t0eTRWZnBMazJTM0sxSmVPWHZzZUNmdTJZVUZ2SndVM19TMmlfQzJPSzZJdWIzUjVSMzRHUmxhT1ptenczNEtIeVYwcE1wY1ZOallCbGxlRkF4cjNUV3I3YXVUTjgyMGE4UTd6TE9aQi11bkJ5aVNxMkE",
+    "source": "nasional.kompas.com",
+    "pub_date": "2026-08-11T04:48:00+00:00",
+    "desc": "BGN Terapkan Rules of 4 Hours, MBG Harus Dimakan Maksimal 4 Jam Usai Matang&nbsp;&nbsp;nasional.kompas.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "926a230ad84a",
+    "title": "Perluas Jangkauan, Pemerintah Izinkan Pesantren Kelola Dapur MBG Secara Mandiri - Mu4.co.id",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNm9oeDNWWFFnSlk0NGRzc1N0YTgycnhXQzVBWFVhRFBMTXZmUS0xVFVEbWRybFhFLTU2cENiaTkzcWpHTE9JQlZYUjlKOE9QVGM2cVp0cFhLVkYwQ1VMRHRRMWllX2wwWU5KVGptdHg4Mm5ma0N2V0E4aU5uUkVVakl3WTFRa0d2dEN3RHpoWkM4bmRQSmJqWmdsZnhKQQ",
+    "source": "Mu4.co.id",
+    "pub_date": "2026-08-11T04:47:38+00:00",
+    "desc": "Perluas Jangkauan, Pemerintah Izinkan Pesantren Kelola Dapur MBG Secara Mandiri&nbsp;&nbsp;Mu4.co.id",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "61c549764a74",
+    "title": "MENGAPA HARUS “MAKAN GRATIS”? - MataKita",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1RTWNjWE1ZTEQzUkZBWkZxeHZIaU45aS1GZjNYMkN1WWZ1U09jaHpPdzNQVWN1eTVvT3J6S3lRWE9DQ3BtZ0p4Vk5peTJrb2pVc2NOOUsyZGFhTk5mV2N0N0EwYWVjUDJLQ0E",
+    "source": "MataKita",
+    "pub_date": "2026-08-11T04:42:54+00:00",
+    "desc": "MENGAPA HARUS “MAKAN GRATIS”?&nbsp;&nbsp;MataKita",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "c82258fef588",
+    "title": "Aturan Empat Jam Jaga Keamanan Pangan MBG - TVRI News",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMTNZbDBoMEZYQXBZTFBONXlRWnFwcFRzWTdwcXR4NEVLTGd4ZnpkNUhFS2JPbVJ5NTQzMG5rOVFkYnFHM3ZQWkFiamlzNFkyaFhXdXhIa19mY0t2Z21sNkJwUVQ2X3NnOGJZTEVkWkFxQmlNa3lpaGhzd204THgwM0xGSm5qekdHN0ltN2JZbw",
+    "source": "TVRI News",
+    "pub_date": "2026-08-11T04:37:56+00:00",
+    "desc": "Aturan Empat Jam Jaga Keamanan Pangan MBG&nbsp;&nbsp;TVRI News",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "d88d0be36d80",
+    "title": "BGN Tetapkan Batas Konsumsi MBG, Siswa Diminta Tak Bawa Makanan Pulang - metapos.id",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMThDVTNEc2FSMmNFc3JHZXdYb0JvTHBxcy1OV3NFYjFnbklqTEU3LU1JTE5LMVk5ZHd1bXhUbDg3SUxsQ1dDVkJKYllLc2l6N012MndidDBfTlJhUXB2OHgwc0k2NkZGYjNjYzRGNHBYMUJfc2dsZFNTVV80XzBvcWVwYUQ5WjRWMFpObkNCZkZFOXpUVzdMYg",
+    "source": "metapos.id",
+    "pub_date": "2026-08-11T04:30:51+00:00",
+    "desc": "BGN Tetapkan Batas Konsumsi MBG, Siswa Diminta Tak Bawa Makanan Pulang&nbsp;&nbsp;metapos.id",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "114520f50124",
+    "title": "BGN Batasi Waktu Konsumsi MBG Empat Jam setelah Matang - startnews.co.id",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRGktTjNISDdMQVAwYjJESk9TdmtkWHBTQmZKV1ZST3JpTFo0LUxpMllRUGpCMUhDNkZ2cWlSVDQ5TFhsa3pJdEVZWUVXeUNWZmUyS3dzTjJlNXlCbkxTcVVCalkyM1NuczU4RUlncGtrVzkzY05WUGJmOGtDb29BR1I3TGJCZw",
+    "source": "startnews.co.id",
+    "pub_date": "2026-08-11T04:30:44+00:00",
+    "desc": "BGN Batasi Waktu Konsumsi MBG Empat Jam setelah Matang&nbsp;&nbsp;startnews.co.id",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "3ebae3b053a1",
+    "title": "Kepala BGN Larang Siswa Bawa Pulang Makanan MBG, Ini Alasannya - Towa.co.id",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUjVVQ2xWRk9yUEc0UElxUkMzUTJscXRFZVJqRG5FMDRIaGRCU0RHblZNRWM1aExLaFlKNmZyVl9YN1psaVFjU09jM2xGTzNpbENxSGZ5b2hQeE1mZmxuc0xlbDM1S0NMRkl6MjV1UjYxOEVQMVh5MUlFU25EYWE0TFBGVzExSHVETXVHY3R3aWpFUm9G",
+    "source": "Towa.co.id",
+    "pub_date": "2026-08-11T04:30:39+00:00",
+    "desc": "Kepala BGN Larang Siswa Bawa Pulang Makanan MBG, Ini Alasannya&nbsp;&nbsp;Towa.co.id",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "e39c782759aa",
+    "title": "BGN Wajibkan Ompreng MBG Cantumkan Batas Waktu Konsumsi — Batam Today - Batamtoday.com",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVlVGLXJJcV9vbVRnbXVNZzdZdHJyNmprTW5vRVdnWmw1aldJTGlOT2ZrMXcyTkFfN3I5d2J0QnFBdnRuV0ZodngxOVN4X3RCWnNFRnhFak43WWRWbklnM1VXdmlBNmhWLVY3b25YR2ktOHgxWExyYnFwTnpnc1c1S0FfWVF6VGhWcmM4",
+    "source": "Batamtoday.com",
+    "pub_date": "2026-08-11T04:10:16+00:00",
+    "desc": "BGN Wajibkan Ompreng MBG Cantumkan Batas Waktu Konsumsi — Batam Today&nbsp;&nbsp;Batamtoday.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "3763eb9dd663",
+    "title": "Kepala BGN Minta Siswa Tidak Bawa Pulang Makanan MBG, Ini Alasannya - Herald ID",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQclF0NVBBZThkZURTYTVra2RZS2ZOWWZuVjZmSkRhMDVTUE5UVnhUVEJTMDd6RDNkbURKd1VFVnI3VlJfSG1RVVRKRkVaWkc1M1BSMmxpUThiRzBZaEVvRW9jX3J4cVhsWW5Dcjh2Q2hCQUx6SFoxcnN1LWJRR0hqRTRraE4zSVY0NmFtV1Q1eDBLYXhaeEg3N29JLXA",
+    "source": "Herald ID",
+    "pub_date": "2026-08-11T03:53:00+00:00",
+    "desc": "Kepala BGN Minta Siswa Tidak Bawa Pulang Makanan MBG, Ini Alasannya&nbsp;&nbsp;Herald ID",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "571b5013d812",
+    "title": "Video: Ompreng MBG Akan Ditempeli Label Batas Konsumsi Pekan Depan - cnbcindonesia.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGJHTXBpV0xDdXh3NEFJdDBld3JhVVFjcy1CTktnckxhSGd5a1BGYi1iZFQ5MEx6MmNOMlZJUHdCZ3RrUklmQkN2Qm9TbE5TOGVuNWtySGxkMUxNX002MDhzekxSczBNM1NBaGVnUkR0WjdyOUpPdjJ0YVNVM3FaT0VwV1FTN0JtUF9vMHF1YklxaURqMzBZNEhkSkFKMWZFbG9XTnJIMFhGUjZoUEd3WHFfbkx0OEhiNUhYTlFrclllQdIBxwFBVV95cUxOLTBqZ2d3NzdoZngwVVdLcmNkSS1JNEx3eE81dnUwRmIyaEF6WElYeWNOZVN3VllFeVo5YVVyMkJ2d2pNbHV0cGR0YWJYa0U0YktsQWxSYmNVc1FaejZ0TXpRS3YwQTNFYWNCMGRzQldOT1Q1dTdlV3B2YzdGckw0bzBaa2dSdW9XN1hwb1dNdjhlTXUxZEpTcDRJb3M3MmRaQ25GWjF4RnFWa3RHemc3WnZMTEZWMFNVNjVkR2szWFlpME4yRnhj",
+    "source": "cnbcindonesia.com",
+    "pub_date": "2026-08-11T03:49:38+00:00",
+    "desc": "Video: Ompreng MBG Akan Ditempeli Label Batas Konsumsi Pekan Depan&nbsp;&nbsp;cnbcindonesia.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "2c52f76e3ece",
+    "title": "Kepala BGN Tegaskan MBG Tidak Boleh Dibawa Pulang - Media Indonesia",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSXY3enl4NWRqek16QmpKZHdWbm9wbG1GT2dwVWFNQmhkc2g0LWlhakU3X2h2UHBGbXhGU1I0Q3NUcUt6bUVPZDlvbFZ0dnhoWC00NVltWDNrWW5HcTN5NEd2N25DMnFQc2RMSXZKaklXTmF5NURXWHFwcHRiYy1peTEtVjFlRFNMVkZ4Z1dGVTFtV0dvOUtiZA",
+    "source": "Media Indonesia",
+    "pub_date": "2026-08-11T03:49:01+00:00",
+    "desc": "Kepala BGN Tegaskan MBG Tidak Boleh Dibawa Pulang&nbsp;&nbsp;Media Indonesia",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "2b9038ff9360",
+    "title": "Pemkot Bontang Evaluasi SPPG Usai Siswa Mual, Pengelola MBG Ungkap Dugaan dari Ayam Suwir - Bontang Post",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3VwbnB1U29LdWxweWFsSFNkQjZjY1JLRVBHMDBXODVDME9EUWxndkl2LXlSNEhTd2hQWFpqRGt0eUNId0hxeTI3NlRWcHF5WF8wSmhnSlRheFRETjFib25RMmlLZ3BxWE5xa0xLYVl0cUhSVE5JWFc0UkFzWHFiWnYxQzdZdHJOTnpJaGdKNGpSOEFCbUFfQnh5SVYtOGk1YmVJQW5BZTNZU1NJWURVVEhn",
+    "source": "Bontang Post",
+    "pub_date": "2026-08-11T03:48:54+00:00",
+    "desc": "Pemkot Bontang Evaluasi SPPG Usai Siswa Mual, Pengelola MBG Ungkap Dugaan dari Ayam Suwir&nbsp;&nbsp;Bontang Post",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "792bc0d8f1d1",
+    "title": "Firman Golkar di Senayan dorong ikan lokal masuk program Makan Bergizi Gratis - lensaindonesia",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMV9RRXhPOWpTT3ZKRTZmcVJJUjdyRXh1bkw1RVBSSGJONjc0MkhzSlNRbHVET3FwbXg4Q2JmLXBUbFlHVHR4LW1BMzF0OVVDa0JpR1g1eTRsY3hPb2RjWFF0Y0dldVRjdEFPdFlBVUpmOGE3bXZ3UVZIcGpQemxMRHFscDlQbFp0aXBrNXY0bWJuY0JNdWxtTnFERmFYU0ZHOUptS2ZoR2JwYmc3R0E",
+    "source": "lensaindonesia",
+    "pub_date": "2026-08-11T03:47:32+00:00",
+    "desc": "Firman Golkar di Senayan dorong ikan lokal masuk program Makan Bergizi Gratis&nbsp;&nbsp;lensaindonesia",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "eca3dda77c31",
+    "title": "Puluhan Penerima MBG Mual dan Diare, Kepala SPPG Bontang Utara 2 Bakal Evaluasi Penggantian Santan dengan Kemiri - RADAR BONTANG",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNkFILU1fZXZwRC01VzJlMmNxTWN4bDl5VW9ycjVUMVFnY1hQVkxnR0oxaEJKNTBkY1dXSWNjZ0VsbkZQNWx0ajdxdjVscC01N1g2NXBPWldLcVY3OFdMV29IbkJ1NmpsSm1FUkdudTBwSVBzeGZNVVRuaVhEdDZEWDFuWFVYcTdSRVJzSldlbVdJbW1HRXRfNEluckp5Tm9RZ2hoWWtCVXJ6X3hYYWtXcnlIbmY5LU14VzFxUHpGb3F0VHNqVVc5UWVZOEZCOWFMY0Mw",
+    "source": "RADAR BONTANG",
+    "pub_date": "2026-08-11T03:43:30+00:00",
+    "desc": "Puluhan Penerima MBG Mual dan Diare, Kepala SPPG Bontang Utara 2 Bakal Evaluasi Penggantian Santan dengan Kemiri&nbsp;&nbsp;RADAR BONTANG",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "46dffeb0f94f",
+    "title": "SPPG MBG Kalbar Berhenti Sementara karena Kabut Asap, Distribusi Makanan Dialihkan ke Pesantren - pontianakpost.jawapos.com",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOamFwVjh5QUpNU2FubVctdFlIajRscGI4aU1NcDJWaWdNbEtCcmprMk9PbF8xYm9rRnM1QlFvM0I5R3Z2bXFFSXlIQ1FfMDU4VjRoMDlTTnQ2dXV5cGg1enpGR3BSNnI2enBfanp0QXVaenR6cl9SUjhLOHM2c3RsdzJndExTT1R4cXpPYTJWWkJLZ0hwYmdCY3RycWVRMVR1THhQOThMMHhrT3dsVEhQdjB3VXhBRzYza1NJMHVIbG5VWUxYM1ZYMmNuSTBidnlXVUI4eThmZ2ZaMmlDQ3dNVXdkUTfSAeoBQVVfeXFMTWE5NURDNjJWTFo0eWlEbEZRdXp1OEpudUoyNmRsc0MtcnJDVTNEeXZJeUxSM0FqQUxBcnNqaXVYdUVZR1ZSRG1WaWo4X2hZdGUzOEM5M3poYmJjMXhCRnhmVUV3emJWamlyZnljUTZNUU5KQU9uWm13dHdlc0IyOXI1bDVwWUJtNHBBUjduc1JQRzJMWkdTVzNzQlJkV1l4LWxGaVlUc25SSUsxMmJUMFQ0QTEzNUh2TEl4SzV2SXB4YVA3dGJwSEpxTHJwUmthYWM0RldjelNTek9kY29XWlhNaEdVX0tDX21n",
+    "source": "pontianakpost.jawapos.com",
+    "pub_date": "2026-08-11T03:38:40+00:00",
+    "desc": "SPPG MBG Kalbar Berhenti Sementara karena Kabut Asap, Distribusi Makanan Dialihkan ke Pesantren&nbsp;&nbsp;pontianakpost.jawapos.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "0c63cb6f99dc",
+    "title": "Cegah Keracunan, BGN Batasi Konsumsi MBG Maksimal 4 Jam - Tirto.id",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRnJBRFhXRk1uVXJWQkV0YXR1TkptbzBhZk92N0MyOWRENU0wVklQMlRIUHZKUzRncUZ5VTZWX2dwNEVvS3lpVWpzNnE0MVFQSElXQWdGbmw2R0VtdmRtQW9BbFo4Sk93TXlCRE0zcjU4b1dpcG4tYnB1ZGhzeDBsLWJB",
+    "source": "Tirto.id",
+    "pub_date": "2026-08-11T03:35:00+00:00",
+    "desc": "Cegah Keracunan, BGN Batasi Konsumsi MBG Maksimal 4 Jam&nbsp;&nbsp;Tirto.id",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "cf0bf0643e21",
+    "title": "Pemerintah Targetkan 30 Ribu Koperasi Desa Merah Putih yang akan Rampung 16 Agustus 2026 - RiauPagi.com",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTGVtVTZaeVNfZ2J1cTRvSE5INGUtQjEyVFM1YWRPWGl0c0pWSklpb2d1RXlEZmFVV0hoM3NEdFYyakpZVU1pSlBKRlhxc0xTQkRIWVl3NVA1NEVyLUM1WFN0aUE5TlVRNWRLNk14cWFldGVLLWFfMTBoSm1tbEl0dkQ2Ty1pWjVNTWdhODE3bHg2clhXTVI5VzJOZWVaYUxNbXRMTmVNZ2xkOVJxWEZQaUFFSDNTMFZzRDhsMVMydWtVZUJsWkpF",
+    "source": "RiauPagi.com",
+    "pub_date": "2026-08-11T03:33:00+00:00",
+    "desc": "Pemerintah Targetkan 30 Ribu Koperasi Desa Merah Putih yang akan Rampung 16 Agustus 2026&nbsp;&nbsp;RiauPagi.com",
+    "topic": "kopdes",
+    "topic_label": "Koperasi Desa Merah Putih"
+  },
+  {
+    "id": "6f0f4a9a6983",
+    "title": "Hasil Investigasi Kasus Keracunan Makanan, Dinkes Temukan Bakteri di Menu MBG - RADAR BONTANG",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONDlxeUpjT3BqWjdTTTZrY0tfbldPZTl2ajNTR0pCM1F0QzJIeUFmbEd5ZjFabmFpb19hclBtdlFSWFpPanFRWjV6RmIyRmJ5MWRtSDBxVTJQZnJyZGZxdWgxcDFCOG5VM0hZZzVWZTVwSVQ4TG5qbU9NVGVkQW1QTFd2OVFKZEFNTjRDWEp0V1VoRi1GV1dEcERBTWd3R3FwT0lCeQ",
+    "source": "RADAR BONTANG",
+    "pub_date": "2026-08-11T03:31:39+00:00",
+    "desc": "Hasil Investigasi Kasus Keracunan Makanan, Dinkes Temukan Bakteri di Menu MBG&nbsp;&nbsp;RADAR BONTANG",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "4dec9e2c75e9",
+    "title": "Resmi Berlaku! MBG Wajib Habis Maksimal 4 Jam & Dilarang Dibawa Pulang - cnbcindonesia.com",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVlJBdHVSQXNnS2tZZGxGZWhHMG5XSndPeVVJTjZiQUlmRDI0d2pLZDF5aWVkM3l2eHlkSU03Nlg5WlR6ZlIxT0hNSVpxUHY5bkl5b3NEcWFJSjFxY2o4dENjeWlMemtlbmtXekNiV3BGNEVZRjZkVm1fR2dHTTRfVUh2ci0tbWRTcHY2WjdXalJHMEhXUWJrWDFsem5XUXhDUXVxUWl1dkNCVENWd2FpQ29FTWpCTTNWS0xBa0E3NGdMV3BB0gHKAUFVX3lxTE5WR25wT3ZCWjlxRVkwT0VwNm9yLUdBdHRDME9fR2FTSlJrYmROSG1YNktEUFU3R24xdDY3Q3JibzFKSkZKT1pCbEpGdkpqSjJaZGJycUVDUUxwUERjWVpzbWx1b3B4bV9IWTl6V19FU1ctWWhNN2VyOFpiWHlqd0xhb2ZjdFhsUWduZ1NHNDBjbmhBbFh4cG1WNFdCUG5ZdkQteGRYTFNKWng4UTlGU29LcEM0a3hnQlozV0pST1N3eGxoZDRETVI4aWc",
+    "source": "cnbcindonesia.com",
+    "pub_date": "2026-08-11T03:30:00+00:00",
+    "desc": "Resmi Berlaku! MBG Wajib Habis Maksimal 4 Jam & Dilarang Dibawa Pulang&nbsp;&nbsp;cnbcindonesia.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "5bedbbd72c1e",
+    "title": "Kejagung Dalami Tata Kelola Program MBG - NUSABALI.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY0hleGdEVjB6MV9nYXd6ZEZ4U19ZWnJ0dWY5ZXFuTUpZS0RNZzFxUHFLWWVKaXlXa0tZZnBEaG05Vkdvd0hheUs4LXBrY29MSjdKUEZiamRrb1FNYWlsR0FZVUpXTV90b2dvRWo0c2ZrdDZfUXJkRTJ0TjZaRUhhRVNFWkE",
+    "source": "NUSABALI.com",
+    "pub_date": "2026-08-11T03:26:34+00:00",
+    "desc": "Kejagung Dalami Tata Kelola Program MBG&nbsp;&nbsp;NUSABALI.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "b1771ea3fcd3",
+    "title": "BGN Larang Siswa Bawa Pulang MBG: Makanan Tak Terpantau Bisa Berujung Keracunan - Suara.com",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTThPVXFDeXBYNGN5MmZzd1lheHVhdC01djF3U2ZnN1RMZmhDTk1EWUVEejRnQWJ1SVVxcVA4eFRmZWU5MGNwT1J6ZTYzOHVCSjctR2ZMU0hzelJiNHlxbUl4RzZHUlNBTUJMVllCdVdnSndHZUxMVVlDclpWNTAxOTRLQ0hsNFFCcUdlUGg3SnYtbjRnLW10WVdYNUo5YVoxdWNfMlNmX1ZFYjFhOHFBS3dxd1hDMExOWlFrNGRmRm_SAcABQVVfeXFMUFhoN0RQZkFWX2loeXc5dnpuMUk3dFVzdldlYXZhOUFodUw4OHVBdmNMNk5nbnluYmdvLVRfY2JoWk9fWHdJdHF1d0M2MURuSmNENnhucC1yaE9KMXJwSkxyTlpJUjg0SDJ0RnZ3c25yMXpmNkxISnJWdWtSRWlTLUUtNGN2aTFUSjlUbXp0WTZMZGFBUHRFc3JEdmsxZkJia2F0b2k0VmluTF9RYm12elc1QWh1TTg5LWxWcVVCV2kw",
+    "source": "Suara.com",
+    "pub_date": "2026-08-11T03:20:06+00:00",
+    "desc": "BGN Larang Siswa Bawa Pulang MBG: Makanan Tak Terpantau Bisa Berujung Keracunan&nbsp;&nbsp;Suara.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "3244daa1ed8a",
+    "title": "Makanan MBG Wajib Dikonsumsi di Sekolah - TVRI News",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMkVMTmF2TEJLU18xdjh0V1Ixd2RrZHpVX01nMjk0UGp3ZjhaNFZPUy1TbWEyYWl0bzNiRXlJeldPMXNnYzk4SnlrQ3pSNXJOYnFTd194dHQwc2FXX2sxZ0hhNjBXSDBhU3E5WGxKNWZETzRjRXZqcFdsTVBUTzRMU041d1VXMUo0R1lXNQ",
+    "source": "TVRI News",
+    "pub_date": "2026-08-11T03:10:00+00:00",
+    "desc": "Makanan MBG Wajib Dikonsumsi di Sekolah&nbsp;&nbsp;TVRI News",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "aa322971cd33",
+    "title": "Tanggapi Aksi Damai Peternak Ayam Petelur, Paguyuban SPPG Kendal Harap Para Pengelola Dapur Serap Telur Produksi Lokal - Halo Semarang",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaG5nVjk2SEMtMjFINllaUm1SVm1NTDJzRkFzNERQSjcyNUoyeWJCSmhLbEQwZWVXblRGR0xhV0pTZjdzOG5pSTg1dnpPdE9vZi10RG1SaWtXZGREYW1NeGVRc0Rxbm9UX1VLdEFEYUg0ajA2RjlPaENXSXowcmRSNGl3a0NiRlNqbFdmNGtLdGlEVVMzNW02WGc3NnctZUZPSW1RekhIOXZXX1J2N18xMHdEdmpwbFA1SXA1TXIxc1RXQzIzSHh0aFFBd1RmWEI5TjE1bDI2RzVCdw",
+    "source": "Halo Semarang",
+    "pub_date": "2026-08-11T03:07:42+00:00",
+    "desc": "Tanggapi Aksi Damai Peternak Ayam Petelur, Paguyuban SPPG Kendal Harap Para Pengelola Dapur Serap Telur Produksi Lokal&nbsp;&nbsp;Halo Semarang",
+    "topic": "sppg",
+    "topic_label": "SPPG"
+  },
+  {
+    "id": "53a5c9a89cd8",
+    "title": "Kepala BGN Minta Pelajar Tak Bawa Pulang Menu MBG, Khawatir Picu Keracunan - news.okezone.com",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQejltZmliWm05VWFsa2FVU1hoMHhWM1ZpbzU5Y2YzY0Zpb0p1ekx3eUZTQ2tEVDBXNGV6eHNLOEZtUmpNRnhIeVN1V0d4T2F2ME5ySklFVWdKcjZwSC1LLWpzdFhtaEdsSkpnRVEzUFJmNGNReXV2YXJlaGY2UXIzZXU3MHpGNDZrSlFucUZwaVVrR3BmZjc3dVdNc3FlczNITi1GYzN4N3JxZlprcFl6RUtNeC1QYTJYRi14TThtQUhzN0Jq0gHDAUFVX3lxTE9Pc1dUdTdLMm5tYVlZellrbVR2Z2NlZldWeWx3Ym41SXV1cHJtcWNhc3BFaTMxb1ZSdVN4UXROajJKek4tWlBWSXpsamFLa2JGWERVUnY0Zy1QTXltMVhaMmtOeGNaZTNUUXdtS1JoUU9UMXlta0JoRjFqc0d3czZ0Y1ZaNTh5WXkwSENZWkZ2Tm9GZ29nTmt4QWRLU192OHhZLUx1RkNJVjBkY0NfQmMwclNmMlROZUV0Z21xcU5lWWVOMA",
+    "source": "news.okezone.com",
+    "pub_date": "2026-08-11T02:49:33+00:00",
+    "desc": "Kepala BGN Minta Pelajar Tak Bawa Pulang Menu MBG, Khawatir Picu Keracunan&nbsp;&nbsp;news.okezone.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "e870cf7db43a",
+    "title": "Kasus MBG Bontang: Bakteri Patogen Ditemukan, Kemiri Ikut Disorot - EKSPOSKALTIM",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMFNhZmpJcXFZX3FnZHRFRUV0a3Fkbkc2NUdScldUTVBSWlUtdGRTRjhrT0xEOUFKVi1sRndjcThhWDVHTzNJbHB5YTBfeVJ6VnBfUzF0MEN6VVY5MEZhZWF6SHBZa0ZzRF9TODZXNzVUTjJ6NF9MZUlmWkIzTmRPOUpIVFh1TVAzS0tUQ09WOTF4VHNZVUNvbTlVdUdYMW40WkpVaGdJeHdPUQ",
+    "source": "EKSPOSKALTIM",
+    "pub_date": "2026-08-11T02:46:38+00:00",
+    "desc": "Kasus MBG Bontang: Bakteri Patogen Ditemukan, Kemiri Ikut Disorot&nbsp;&nbsp;EKSPOSKALTIM",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "5b286ac345dd",
+    "title": "Gedung Kopdes Merah Putih Jadi Lokasi Resepsi, Warga Pilih Hindari Ganggu Jalan Umum - Pekalongan News",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdEVEX3B5cG5FS25tOXBabEd0VUxKOTRUbThXTmI1ZXZUMlVNNkxSQ2h0VkZnZkFpbUpBckpGbERBLWMwZzZWYXhWTFdacHJzN1pra20ySzJCLVc5OVZHYzJ6blhCQW9iVlBWbC1MVVpWVFVlNjdfQzRPSnBKRGhGcm5XU1hOWXFCTmc",
+    "source": "Pekalongan News",
+    "pub_date": "2026-08-11T02:43:20+00:00",
+    "desc": "Gedung Kopdes Merah Putih Jadi Lokasi Resepsi, Warga Pilih Hindari Ganggu Jalan Umum&nbsp;&nbsp;Pekalongan News",
+    "topic": "kopdes",
+    "topic_label": "Koperasi Desa Merah Putih"
+  },
+  {
+    "id": "91a06276ba37",
+    "title": "Kepala BGN Larang MBG Dibawa Pulang, Mengapa? - nasional.kompas.com",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcldGSjl6U2xWZ25UV2syUDNMYjNiSFNqUGdzUUI4Q0Z6bktYbWZHRWZjb0pCUHF6UzNDeDBvblo3Q3UzM0FpS2lndDd1aTBZNUpCQlhLSWhsYXdzSzRyb3ZjWFdrMWVjSXBpN1lDbmZ1Z2tuS2VWc1RIOEt6WUl4VkVwZDFlT1BTLVZ4Zk8wcmRzQW45VmhiRER1OFo",
+    "source": "nasional.kompas.com",
+    "pub_date": "2026-08-11T02:39:00+00:00",
+    "desc": "Kepala BGN Larang MBG Dibawa Pulang, Mengapa?&nbsp;&nbsp;nasional.kompas.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "085f80a7bbdc",
+    "title": "Cegah Keracunan, Kepala BGN Minta Menu MBG Tidak Dibawa Pulang ke Rumah - nasional.sindonews.com",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYUQ1bkk2OWZlNnhtQXY3UjNOaWQ4OERuTnZOTjF1ZlpXT3lFSHh0TDVaV296TERlWlFBdGF3ZENXQm4xT1VySmtLUlhTRmxLQjIybHJxY28xTDh0YlVFUWowZUFUY0hnSFdCTFZrTlpwX3hhMWVxc09WdVVKOFZya3cxYjR1U2NUb3pJMjJfSWdHQXdMODFFbDNuZ0pNWjlrcUFNNWlWSE9PcmJwZXhTT0pPSEJBallLSFFHMkl5YkhJQ28xNkpF0gHMAUFVX3lxTE92c0dxN2xwT0ROVXJnMlpWZFRxQTRZZkZyRmhNQThpbDNPZk15TkNvejBrRFFoeXNVU1RMeFRhc2Rha2JDb1BZOFA2QndteTNxQ0djSjFYcGxQWTZZVnVjSUVZbzNlYVVDQ1pzUTVuTlN0bmxFV0pvVlVFVGt4cTJnOXhmaXZjYmxrVG5YQ1J1SE9iSHhXaGZ6MjB2TFVWSnk5LTU2NUtNeXNfZG1OY3NER3pSUXRtNGloelZlNkd3X2U5OTJpMmRXZm00WQ",
+    "source": "nasional.sindonews.com",
+    "pub_date": "2026-08-11T02:37:03+00:00",
+    "desc": "Cegah Keracunan, Kepala BGN Minta Menu MBG Tidak Dibawa Pulang ke Rumah&nbsp;&nbsp;nasional.sindonews.com",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "07fde9208a37",
+    "title": "Kapolsek Natar Pastikan Program MBG Lulus Uji Food Security Sebelum Didistribusikan - Tribratanews Polda Lampung",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNanJIUmw0QVd6MUhPTUtObEFJUFQ4bzNzX2FJZ3dUSnZxTkFIaUJzbkhQSG5wdmUzS2RXRmtFRm03OTZGMFIzSmtseVFub0pFRlVJV3Fva1JLT1U2Tm1sY2NzQ1pScEx2cGw1ZzdjR0JUS0YyblAyMHh1TlVwbG4xWWF6Mk9VaWVIazJCZmkxOHRpeUo3QmxMTFU2b2w4UWZsMllsQnJZVm5yUWVGQ2F4MHl6SEpweS1PaFY1a2Q5Wkh6QzJnUjRBWUg0RzhqNURmZHc",
+    "source": "Tribratanews Polda Lampung",
+    "pub_date": "2026-08-11T02:36:24+00:00",
+    "desc": "Kapolsek Natar Pastikan Program MBG Lulus Uji Food Security Sebelum Didistribusikan&nbsp;&nbsp;Tribratanews Polda Lampung",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "3b51a1cbd4c6",
+    "title": "MBG tidak Boleh Lagi Dibawa Pulang ke Rumah - Herald ID",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9KWjFQekZHVUh2Z1pidDUxaXNjdjF2TGlYT2Z0d0hlc2JuVkkyWmhJUjhkbE5zTHpMbmFhZ21BclRzaHMteUhRZU1nM1hlSlFkOWwySURDamtoaG1icjFOS3B6LVZxRlVPQmpmVUxxNWM0bURpRDk0VVhCME5DZw",
+    "source": "Herald ID",
+    "pub_date": "2026-08-11T02:29:00+00:00",
+    "desc": "MBG tidak Boleh Lagi Dibawa Pulang ke Rumah&nbsp;&nbsp;Herald ID",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "5cf2d1283188",
+    "title": "Kepala BGN Minta Pelajar Tak Bawa Makanan MBG ke Rumah, Ini yang Dikhawatirkan - RCTI+",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVlNiSDE0blRwNklFejhUbFF5REZubTU3bkQwQkVhYjdoWW9wQXVvS3VPdnl6dVMtQmhEQ002eTV4OHFBMzFST3FiMTl5c1NJOFBHbERGcU1aZ0w3SjRod2RWTV9LWXpGQmJQWmlpb1F3THZMd1hZaDBUNmItRTlMc0ROYnhWVzd5Ymh3VHhrR3YybDdRVVdlTWRfMDZsMVVOMTRBLUJBZHFfSlc1S1VYeHNBdURBcWdmWnFqT3lkRnl5eEdPeUViUQ",
+    "source": "RCTI+",
+    "pub_date": "2026-08-11T02:24:00+00:00",
+    "desc": "Kepala BGN Minta Pelajar Tak Bawa Makanan MBG ke Rumah, Ini yang Dikhawatirkan&nbsp;&nbsp;RCTI+",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "3003f8b93ba5",
+    "title": "BGN Mulai Terapkan Label Waktu Makanan, Lebih dari 4 Jam Jangan Dimakan - Koma.id",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcHhfMVRPWDdGUElHUlozb01DdzFVNTFuQ09SX0xDYUNSUVlGeXREdGxfMDJsUjFib2ZUQXNtWHpUMkhJV0RsWGEtRG9IclZEeXh2SHNJZzZTb2Jfcm81cUIxa3hnMFVvTmIteGxkUGNtbFBZR2NMU1FaOFRETEVZRUpSUzdXQUw5cDUybGROQ05QZnNqbTdPaVZkaXVaQUk",
+    "source": "Koma.id",
+    "pub_date": "2026-08-11T02:03:17+00:00",
+    "desc": "BGN Mulai Terapkan Label Waktu Makanan, Lebih dari 4 Jam Jangan Dimakan&nbsp;&nbsp;Koma.id",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "fc3fab7fd8e8",
+    "title": "MBG Kini Harus Dikonsumsi Maksimal 4 Jam Setelah Dimasak, Siswa Dilarang Bawa Pulang - RCTI+",
+    "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNcGdCZmZ1MUZudFN1NTJObEluYkk1dDZRTWkyR2Z1R2hxLTI2dVM2X3JtWDFuMHFoRUJWQU1KTlcyY0tYR2V6aFBCbVRjV01vdW5kWmZsNWkxZ2d5TkNlQVVKVmVrcEJhaHdaYVpZZTZBRGxoVVdCcmxKcURRSHZOSUtBNmxKYldHUUJ0c0kxbVFjZTBENjAwUDdfQkRCZnVmWHdPaWlvMlI3TGFaX00wdmdQeTlhTFBieVFTWDFVRWlibUZFYUtIZnZpaWRIVlc4ZlhSNTVjT2xkbFlyLXpMUm56Mk1JbHgxZkFxWUdmRkxNVnVNaFpMS3lRdUduYTQxcVZTdmFuNUo1NVZWcS1Xb2VWOGFyTVpHY21obWlPcnNIRlp3OG5IdXlJUDBGbXZuTFE",
+    "source": "RCTI+",
+    "pub_date": "2026-08-11T02:00:05+00:00",
+    "desc": "MBG Kini Harus Dikonsumsi Maksimal 4 Jam Setelah Dimasak, Siswa Dilarang Bawa Pulang&nbsp;&nbsp;RCTI+",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "ff24d081c7e4",
+    "title": "Neni Sentil SPPG Bontang yang Tertutup Soal MBG: Giliran Berkasus, Pemkot yang Turun Tangan - Klik Kaltim",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb01aOEthR05kUG5JRlR3cXBnSGhudmlLN0FPUnVPN2t5R29nZE54U2p3blBqUWRtTUF3azBNQlRwVVBob1ZBbS0tQWVMOEpXSVF0bmtQYXBmLW1vaEFoclZtMWhVR2g2eFY2bVJpUzVvU3BWWkZfN3E5TERTMUktbXVDaDdaTUhtb25PWV9LOVJLY0N4YWxCYk0wOEtSMnlPWERvcXl4WFZ1TW5GaGZPZlJVaXRKRU9vMldNR2ozMHNaTWpSMGo5eXZ4eGxQZw",
+    "source": "Klik Kaltim",
+    "pub_date": "2026-08-11T01:58:49+00:00",
+    "desc": "Neni Sentil SPPG Bontang yang Tertutup Soal MBG: Giliran Berkasus, Pemkot yang Turun Tangan&nbsp;&nbsp;Klik Kaltim",
+    "topic": "sppg",
+    "topic_label": "SPPG"
+  },
+  {
     "id": "c7fdef23fa16",
     "title": "556 SPPG di Lampung Belum Punya SLHS, BGN Beri Waktu Hingga 10 Agustus - Kupas Tuntas",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOUM0SmRlQkowc0oteUtLQVBIWkkwVTFnRk1vUGxPY2RiUFhDOHM2UnNwMzRTczJMV1ZCekRsQ2lPY3IxZEZxOEdWOE5Fb1FNRVZuWk55TVM3dHFFd3BKQVd1ZlI1NzNpZVhSekNLQkxvOXpWTUhVZ05MS2pQeU5feV9QaldwZTJ5RmxNUnFIczBPZ29scGpmZGR0OXBPVTh2ZzdOWUdB",
@@ -10,6 +600,16 @@
     "topic_label": "SPPG"
   },
   {
+    "id": "0c1684b6e75f",
+    "title": "Dugaan Keracunan MBG SMP Vidatra: Muncul Temuan Lalat hingga Bahan Makanan - EKSPOSKALTIM",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNamFMQW5fbi1hNXhOYWl1TXFwcTJJcVZvdkxlOUJXazBlajRyZmo3ckFVT0ZySERnbC1SdEVnUktxWmhySFNUalNkeGdoclRVejJNOHRMUkh6WVMzUHktRDBpRTlsamJmcDYwOThtLWFKZzdJMlNJbTdfU0ZoMFhVWmhDeWFyaHQzWTFPLTFRalI4VGtSRFl5TUVZQ2tzT21MZUZNY1BCcW5EbXc5dWpNTmJUSjVNTHBQ",
+    "source": "EKSPOSKALTIM",
+    "pub_date": "2026-08-11T01:00:05+00:00",
+    "desc": "Dugaan Keracunan MBG SMP Vidatra: Muncul Temuan Lalat hingga Bahan Makanan&nbsp;&nbsp;EKSPOSKALTIM",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
     "id": "d0099e3e7afa",
     "title": "Perbaikan Gizi Jadi Langkah Bersama Membangun Generasi Berkualitas - MetroTVNews.com",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRmM1d3MwVzBtUlNtejA5WDdnTzUxc2xrN1VNRzBBeW1kUmptRWVvZ1o3dFF0MzNTVUNVYU1GVlNka2NQZnRHNVMwZWNGSVVtYkdOZjRuSTJ0YVBtRl8zdHNSbHZfZmx1Y1ZPMkVOdDlLREZjcHdsWUlxenQxNWZQZHk2XzJQNnpoLTdXa3NlWEl2OTU0X0dVMFo2dEtZUlo3a3Nkd3dwVzJpRkZj",
@@ -18,6 +618,16 @@
     "desc": "Perbaikan Gizi Jadi Langkah Bersama Membangun Generasi Berkualitas&nbsp;&nbsp;MetroTVNews.com",
     "topic": "mbg",
     "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "ac60a684c86e",
+    "title": "PPI Dukung Program Prabowo, Sebut Koperasi Merah Putih Bisa Perkuat Ekonomi Desa - TIMES Indonesia",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa3lsQXhrSVY4QWZpeXVaZVEzU3d4eS1LMG4xUjh0X2trbFRFOUQwc3laVGlrclFJY1R4MHpqb1gtOUo4alZMSktXalZjemtnZVFsREV2QkRuUmtNZlpiUzZ0UnlZMk9GTjVjY3hmdy1YbURNRE4xQ3Z3NFJSS3QwWXp0YWJiZDZrV1dTUTBFSWtkZ1d4VHNvV1ZYNEdLMGxjX0dvUUd3OWxPaDhrLWtZcEVJSWg5MU0zUHFZZzh1QzBMNm9GUXBwREl6d3FXUQ",
+    "source": "TIMES Indonesia",
+    "pub_date": "2026-08-11T00:29:00+00:00",
+    "desc": "PPI Dukung Program Prabowo, Sebut Koperasi Merah Putih Bisa Perkuat Ekonomi Desa&nbsp;&nbsp;TIMES Indonesia",
+    "topic": "kopdes",
+    "topic_label": "Koperasi Desa Merah Putih"
   },
   {
     "id": "e3e74fa199f8",
@@ -40,6 +650,16 @@
     "topic_label": "Makan Bergizi Gratis"
   },
   {
+    "id": "b1e09f4d8626",
+    "title": "BGN Larang Siswa Bawa Pulang MBG - Validnews",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUGY4VlFvdFBveWFuV3hnNkR1RFlkbkxUaGRnRWtyUVp0NXVNanRXZkJCdURsR2U0QzhXM0xJaFUtbjdnSjBvZEowLURMRVBITXFZVmZFV2N1eWFfMkFvNWNiQjRycmZ3ODAya3hTT2pjUUd3ZERLLWxXZHgzQnNMNmI0TkNlcUxOdWxVVWNPdWM",
+    "source": "Validnews",
+    "pub_date": "2026-08-10T23:33:11+00:00",
+    "desc": "BGN Larang Siswa Bawa Pulang MBG&nbsp;&nbsp;Validnews",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
     "id": "296b59b28481",
     "title": "Kaperwil MBC Kunjungi Dapur MBG, Tinjau IPAL dan Kualitas Menu - mediabantencyber.co.id",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFVZcDNyNVlxNVpoYXlJeFVTYmE1bVhXaDBicVpxa21vWG5jRHFSam9WRl9mZDdBZ0xUR0RmSVN5elB3X2NjekJHRTYwb3RYNjZDY3h6Z2R5ZGF5SmNOa0ppVEZzcGdPUHJYaE1OdWtCUllpUHhIcllyOG1pTGtqZVBkSFZud0Rackp3YWNqLS1tdFVqdV9sakJUZDhoNmFCQ1VCbE05aG1rSWxQTmZMclEwZFRXcGNMWGNFcW5idy1fZw",
@@ -56,6 +676,16 @@
     "source": "Portibi Online",
     "pub_date": "2026-08-10T23:17:00+00:00",
     "desc": "Video Viral Diduga Temukan Keong dalam Menu MBG di Bawolato, SPPG Akui Ada Laporan Makanan Tak Layak&nbsp;&nbsp;Portibi Online",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "5d78ea0900dc",
+    "title": "Perkuat Pengawasan MBG, Kepala BGN Minta Libatkan Guru untuk Edukasi - Radarbangsa.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdHlsbzVjMHIzX2lTSVk2cnlFZXBPaGd1WWhiWWVPaGZDaGZmUmZLM21ndlRiNVJ6OUpiYmdFYmYwVXVQT0hiTTNXUWJFdXJ3MDVsTF9JRHcxZ0NGdlVkTXpkOGFfT3RaY2VDLVhqNy1rLXh6a1ByVkxPQ1VPN2gtUjFlZm56eTRZMUYteUhFRm1oankxQmdIVVJEUlk2MEVuSmdMcWhKWk1Gdw",
+    "source": "Radarbangsa.com",
+    "pub_date": "2026-08-10T23:01:00+00:00",
+    "desc": "Perkuat Pengawasan MBG, Kepala BGN Minta Libatkan Guru untuk Edukasi&nbsp;&nbsp;Radarbangsa.com",
     "topic": "mbg",
     "topic_label": "Makan Bergizi Gratis"
   },
@@ -250,6 +880,16 @@
     "topic_label": "Makan Bergizi Gratis"
   },
   {
+    "id": "efbaf1a4bec4",
+    "title": "MBG Masuk Fase Pembuktian, BGN Perketat Pengawasan dan Pengadaan - HALLORIAU.COM",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbmtNdDBYcDVvekJjODJuNkkyV3p1Q2FNSjFlRUJ2VWFHMnRGaHNTM3J3TFhzT0czaGtNNklURWZVSFVoa0NlVGtoX1dfWnhaNkhnSUFqVk45V1lINk8zM0k3UUZGb2RYdGswS0dzdTBsY3JnbEdqWnJFRTFOaGlIbVhJUW1Cck9hZWRTdWhzT0RQejB0d3pUdG9UWlY2MnBfRXdFQTM0em1Yc05zZmM5SmtpN3V4ZGN0",
+    "source": "HALLORIAU.COM",
+    "pub_date": "2026-08-10T14:21:00+00:00",
+    "desc": "MBG Masuk Fase Pembuktian, BGN Perketat Pengawasan dan Pengadaan&nbsp;&nbsp;HALLORIAU.COM",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
     "id": "a29cbb837fe0",
     "title": "Dapur MBG Disorot, Kebersihan Pekerja di Tapanuli Utara Masih Perlu Pembenahan - tabloidpolmaspoldasu.id",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQWowUnJLSW1PcHNkUUJGbFRxWW9LNUIwWHE4anl2ZEFTanI4UEFqOE9sZVFzY25EV3hZTXJ1cFRyNzh1UTlhWlVrdXRkUVdCc2RTakV4QlhFenlFZy1EMFd5VmkyOTR4NFViVlRhTmVmZ2JrcERzZkdBTThaMTYyUzR3QlEybDdUZnlmTTVmVFdkdHl6S2NENkRiZ2NodkJyMDNiVkkxU1A4M09CMXNKNFNXelBHRDlMRVQyZ3h3",
@@ -346,6 +986,16 @@
     "source": "Satumedia.id",
     "pub_date": "2026-08-10T13:19:43+00:00",
     "desc": "BGN Buka 3 PO BOX Pengaduan Program MBG, Laporan Disampaikan Tanpa Ungkap Identitas&nbsp;&nbsp;Satumedia.id",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
+  },
+  {
+    "id": "4adfc97b02d5",
+    "title": "Dari Dapur hingga ke Meja Anak, Polres Singkawang Kawal Distribusi MBG - Media Hub | POLRI",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbFExUmF2dWFrdnNnU2R1SFZfcjV2Q2cyMlctX3MyRnpPU1ZPRUxSUlF5V2pxVlJxNWI1czAzV1pUMjhuU0VqMy1RUUNrZ0lZRkNVdE0wVGJaLWYzRXlheUxoVVNzR3EwTWhWTjVOMTh6N2J3U3BYWjB0alRQb19uaDdYM2pEaE03X2kzb0toSnV5dU1CTkNmdm1yWkRFUjU1Q3pobWZQaHFfbHhjdGFPZjlyNElVaUlMVF9YNFR3",
+    "source": "Media Hub | POLRI",
+    "pub_date": "2026-08-10T13:18:00+00:00",
+    "desc": "Dari Dapur hingga ke Meja Anak, Polres Singkawang Kawal Distribusi MBG&nbsp;&nbsp;Media Hub | POLRI",
     "topic": "mbg",
     "topic_label": "Makan Bergizi Gratis"
   },
@@ -98288,6 +98938,16 @@
     "desc": "BGN Ingin Bentuk Lembaga Sertifikasi Dapur MBG, Dosen UGM Minta harus Independen dan Teruji Kompetensinya&nbsp;&nbsp;Universitas Gadjah Mada",
     "topic": "sppg",
     "topic_label": "SPPG"
+  },
+  {
+    "id": "6f4f6892a71b",
+    "title": "Program Makan Bergizi Gratis (MBG) di Indonesia: Analisis Kebijakan dan Perbandingan dengan Programa Nacional de Alimentação Escolar (PNAE) di Brasil - Direktorat Jenderal Perbendaharaan",
+    "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPQ0FUXzhuTGFYTWZCd1JjWThhU3ZINTIwZVpPWDJnajNBWUctMktRR3lIb1JELUx4NGpqbXg4ZENkU2JoVlFYTW9KUnlTQ2VxOTdTRnFkZEpZRnJUb2hFdUZPWDE5YjlzN0NyalBjcnV5NHk0RFpBcDRsRXg0cWc0T2ZsT2lQdndybWFNYzhoS05UYXlnd3FYSHpUbkY0UWVuZG1yaXpyOG15MGNNeUlvU0VPekNKMjFiX3hKTUJCSFRBcXJ5THFPOWljRmlOOHBsYWN3TjZ4Q3FTV1c2MnMyay1pR0U4MGRQTUpmdkdHVXdGQWdnVnhxYUh2cVR3VTBzN2ZaTG5zYW4wYlBIaEtyMHhObnNmdWhkd3FXZUk5Qi1lMllkRjhEb2JxdTJyVm9oLU9JZEpfZEJUN1pjSW95VTJNaThnbDNxdXI1MQ",
+    "source": "Direktorat Jenderal Perbendaharaan",
+    "pub_date": "2026-04-01T07:00:00+00:00",
+    "desc": "Program Makan Bergizi Gratis (MBG) di Indonesia: Analisis Kebijakan dan Perbandingan dengan Programa Nacional de Alimentação Escolar (PNAE) di Brasil&nbsp;&nbsp;Direktorat Jenderal Perbendaharaan",
+    "topic": "mbg",
+    "topic_label": "Makan Bergizi Gratis"
   },
   {
     "id": "95cb2d242358",
